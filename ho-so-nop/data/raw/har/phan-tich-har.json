@@ -1,0 +1,172 @@
+{
+ "phien-hoc": {
+  "request": {
+   "tinh": 153,
+   "api": 20,
+   "socket": 5,
+   "tep_media": 10
+  },
+  "kb": {
+   "tinh": 2205.7,
+   "api": 61.4,
+   "socket": 1.4,
+   "tep_media": 53.5
+  },
+  "api_kb_tb": 2.05,
+  "route": [
+   [
+    "GET /auth/session",
+    3
+   ],
+   [
+    "GET /learn/lessons/:id/session",
+    2
+   ],
+   [
+    "POST /auth/login",
+    1
+   ],
+   [
+    "GET /premium/status",
+    1
+   ],
+   [
+    "GET /study/stats",
+    1
+   ],
+   [
+    "GET /notifications",
+    1
+   ],
+   [
+    "GET /streak",
+    1
+   ],
+   [
+    "GET /practice/stats",
+    1
+   ],
+   [
+    "GET /mock-exams/attempts/me",
+    1
+   ],
+   [
+    "GET /classrooms/assignments/me",
+    1
+   ],
+   [
+    "GET /learn/path",
+    1
+   ],
+   [
+    "GET /levels",
+    1
+   ],
+   [
+    "GET /streak/history",
+    1
+   ],
+   [
+    "GET /learn/lessons/:id",
+    1
+   ],
+   [
+    "GET /quests/today",
+    1
+   ],
+   [
+    "GET /words/of-the-day",
+    1
+   ],
+   [
+    "POST /learn/lessons/:id/complete",
+    1
+   ]
+  ]
+ },
+ "hoc-lieu": {
+  "request": {
+   "tinh": 179,
+   "api": 23,
+   "socket": 10,
+   "tep_media": 5
+  },
+  "kb": {
+   "tinh": 1792.0,
+   "api": 47.2,
+   "socket": 2.8,
+   "tep_media": 3791.3
+  },
+  "api_kb_tb": 1.04,
+  "route": [
+   [
+    "GET /auth/session",
+    3
+   ],
+   [
+    "GET /premium/status",
+    2
+   ],
+   [
+    "GET /study/stats",
+    2
+   ],
+   [
+    "GET /notifications",
+    2
+   ],
+   [
+    "GET /streak",
+    2
+   ],
+   [
+    "POST /auth/login",
+    1
+   ],
+   [
+    "GET /practice/stats",
+    1
+   ],
+   [
+    "GET /mock-exams/attempts/me",
+    1
+   ],
+   [
+    "GET /classrooms/assignments/me",
+    1
+   ],
+   [
+    "GET /learn/path",
+    1
+   ],
+   [
+    "GET /levels",
+    1
+   ],
+   [
+    "GET /streak/history",
+    1
+   ],
+   [
+    "GET /learn/lessons/:id",
+    1
+   ],
+   [
+    "GET /quests/today",
+    1
+   ],
+   [
+    "GET /words/of-the-day",
+    1
+   ],
+   [
+    "GET /resources",
+    1
+   ],
+   [
+    "POST /resources/video-mau/link",
+    1
+   ]
+  ]
+ }
+}

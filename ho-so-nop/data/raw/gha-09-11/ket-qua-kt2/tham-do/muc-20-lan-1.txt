@@ -1,0 +1,103 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+     execution: local
+        script: /k6/kb1-tu-hoc.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 400 max VUs, 1m30s max duration (incl. graceful stop):
+              * tu_hoc: 20.00 iterations/s for 1m0s (maxVUs: 100-400, gracefulStop: 30s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     ✓ lộ trình 200
+     ✓ chuỗi ngày 200
+     ✓ phiên học 200
+     ✓ tra từ 200
+     ✓ từ hôm nay 200
+
+     checks.........................: 100.00% 6005 out of 6005
+     data_received..................: 36 MB   592 kB/s
+     data_sent......................: 2.4 MB  40 kB/s
+     http_req_blocked...............: avg=9.81µs   min=1.68µs  med=4.66µs  max=3.67ms   p(90)=6.83µs   p(95)=8.21µs   p(99)=193.58µs
+     http_req_connecting............: avg=3.57µs   min=0s      med=0s      max=3.62ms   p(90)=0s       p(95)=0s       p(99)=131.57µs
+     http_req_duration..............: avg=10.45ms  min=3.34ms  med=7.17ms  max=119.15ms p(90)=21.01ms  p(95)=23.94ms  p(99)=39.16ms 
+       { expected_response:true }...: avg=10.45ms  min=3.34ms  med=7.17ms  max=119.15ms p(90)=21.01ms  p(95)=23.94ms  p(99)=39.16ms 
+     ✓ { kind:read }................: avg=10.45ms  min=3.34ms  med=7.17ms  max=119.15ms p(90)=21.01ms  p(95)=23.94ms  p(99)=39.16ms 
+     ✓ { kind:write }...............: avg=0s       min=0s      med=0s      max=0s       p(90)=0s       p(95)=0s       p(99)=0s      
+   ✓ http_req_failed................: 0.00%   0 out of 6006
+     http_req_receiving.............: avg=167.01µs min=28.16µs med=88.53µs max=39.84ms  p(90)=257.73µs p(95)=348.96µs p(99)=909.46µs
+     http_req_sending...............: avg=19.17µs  min=5.2µs   med=16.52µs max=557.39µs p(90)=26.6µs   p(95)=35.89µs  p(99)=72.14µs 
+     http_req_tls_handshaking.......: avg=0s       min=0s      med=0s      max=0s       p(90)=0s       p(95)=0s       p(99)=0s      
+     http_req_waiting...............: avg=10.26ms  min=3.18ms  med=7.03ms  max=114.89ms p(90)=20.81ms  p(95)=23.66ms  p(99)=38.44ms 
+     http_reqs......................: 6006    98.856519/s
+     iteration_duration.............: avg=552.52ms min=47.01ms med=558.5ms max=1.13s    p(90)=947.05ms p(95)=1s       p(99)=1.04s   
+     iterations.....................: 1201    19.768012/s
+     vus............................: 10      min=6            max=14 
+     vus_max........................: 100     min=100          max=100
+
+
+tu_hoc ✓ [ 100% ] 000/100 VUs  1m0s  20.00 iters/s

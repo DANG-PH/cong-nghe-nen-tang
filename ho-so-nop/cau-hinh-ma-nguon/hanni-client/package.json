@@ -1,0 +1,34 @@
+{
+  "name": "hanni-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test:pwa": "node --test tests/pwa-worker.test.mjs",
+    "test:handwriting": "node --test tests/handwriting.test.ts",
+    "test:hoc-lieu": "node --test tests/hoc-lieu.test.ts"
+  },
+  "dependencies": {
+    "hanzi-writer": "^3.7.3",
+    "hls.js": "1.6.15",
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "socket.io-client": "^4.8.3",
+    "swr": "^2.3.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.4",
+    "playwright-core": "^1.63.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

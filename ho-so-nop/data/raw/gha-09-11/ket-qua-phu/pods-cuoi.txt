@@ -1,0 +1,11 @@
+NAME                                  READY   STATUS    RESTARTS   AGE   IP           NODE         NOMINATED NODE   READINESS GATES
+hanni-api-6f88f554fc-hk5sc            1/1     Running   0          62m   10.42.0.27   k3s-server   <none>           <none>
+hanni-api-6f88f554fc-jlxxr            1/1     Running   0          77m   10.42.1.16   k3s-agent    <none>           <none>
+hanni-media-576b44c9c4-qzvp8          1/1     Running   0          81m   10.42.0.8    k3s-server   <none>           <none>
+hanni-pgbouncer-648f8ddcc9-9xwx9      1/1     Running   0          81m   10.42.1.5    k3s-agent    <none>           <none>
+hanni-pgbouncer-ro-86c56d4454-92qsn   1/1     Running   0          81m   10.42.0.9    k3s-server   <none>           <none>
+hanni-postgres-0                      2/2     Running   0          81m   10.42.0.14   k3s-server   <none>           <none>
+hanni-postgres-replica-0              2/2     Running   0          81m   10.42.1.8    k3s-agent    <none>           <none>
+hanni-redis-5f976664cb-hvkq9          2/2     Running   0          81m   10.42.0.10   k3s-server   <none>           <none>
+hanni-worker-67d4ffbf96-qgbnd         1/1     Running   0          81m   10.42.1.13   k3s-agent    <none>           <none>
+hanni-worker-67d4ffbf96-w7lvx         1/1     Running   0          81m   10.42.0.23   k3s-server   <none>           <none>

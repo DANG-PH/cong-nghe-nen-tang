@@ -1,0 +1,13 @@
+Kiểm thử quyền lúc 2026-11-09 11:48:23 +0000
+Q1   Khách xin liên kết R1 cần đăng nhập                  mong đợi 401        thực tế 401        ĐẠT
+Q2   Dùng liên kết đã hết hạn                             mong đợi 410        thực tế 410        ĐẠT
+Q3   Sửa chữ ký trên liên kết                              mong đợi 403        thực tế 403        ĐẠT
+Q4   Người học xin liên kết R1 đúng quyền               mong đợi 200        thực tế 200        ĐẠT
+Q5   Người học xem tiến độ lớp của người khác     mong đợi 403|404    thực tế 403        ĐẠT
+Q6   Máy ngoài cụm nối thẳng Postgres 10.42.1.9:5432        mong đợi dong       thực tế dong       ĐẠT
+Q6   Máy ngoài cụm nối Redis qua 127.0.0.1:6379               mong đợi dong       thực tế dong       ĐẠT
+Q7   Pod API nối PgBouncer, đường được phép              mong đợi ket-noi    thực tế ket-noi    ĐẠT
+Q7   Pod API nối thẳng Postgres, bỏ qua PgBouncer             mong đợi chan       thực tế chan       ĐẠT
+Q8   Từ ngoài cụm gọi /api/metrics                           mong đợi 404        thực tế 404        ĐẠT
+Q9   Người học gọi route chỉ dành cho quản trị        mong đợi 403        thực tế 403        ĐẠT
+Tất cả ca đạt

@@ -1,0 +1,33 @@
+LAST SEEN   TYPE      REASON                 OBJECT                               MESSAGE
+51m         Normal    Scheduled              pod/hanni-api-6f88f554fc-j6r8m       Successfully assigned hanni/hanni-api-6f88f554fc-j6r8m to k3s-agent
+52m         Normal    SuccessfulDelete       replicaset/hanni-api-6f88f554fc      Deleted pod: hanni-api-6f88f554fc-wkwcn
+52m         Normal    Killing                pod/hanni-api-6f88f554fc-wkwcn       Stopping container api
+51m         Warning   Unhealthy              pod/hanni-api-6f88f554fc-wkwcn       Readiness probe failed: Get "http://10.42.1.17:8000/api/health/ready": dial tcp 10.42.1.17:8000: connect: connection refused
+51m         Normal    ScalingReplicaSet      deployment/hanni-api                 Scaled up replica set hanni-api-6f88f554fc to 6 from 5
+51m         Normal    Pulled                 pod/hanni-api-6f88f554fc-j6r8m       Container image "hanni-api:lab" already present on machine
+51m         Normal    Created                pod/hanni-api-6f88f554fc-j6r8m       Created container: api
+51m         Normal    Started                pod/hanni-api-6f88f554fc-j6r8m       Started container api
+51m         Normal    SuccessfulCreate       replicaset/hanni-api-6f88f554fc      Created pod: hanni-api-6f88f554fc-j6r8m
+51m         Normal    SuccessfulRescale      horizontalpodautoscaler/hanni-api    New size: 6; reason: Current number of replicas below Spec.MinReplicas
+51m         Warning   Unhealthy              pod/hanni-api-6f88f554fc-j6r8m       Startup probe failed: Get "http://10.42.1.19:8000/api/health/live": dial tcp 10.42.1.19:8000: connect: connection refused
+9m39s       Normal    SuccessfulRescale      horizontalpodautoscaler/hanni-api    New size: 5; reason: All metrics below target
+9m39s       Normal    SuccessfulDelete       replicaset/hanni-api-6f88f554fc      Deleted pod: hanni-api-6f88f554fc-j6r8m
+9m39s       Normal    ScalingReplicaSet      deployment/hanni-api                 Scaled down replica set hanni-api-6f88f554fc to 5 from 6
+9m39s       Normal    Killing                pod/hanni-api-6f88f554fc-j6r8m       Stopping container api
+9m2s        Warning   Unhealthy              pod/hanni-api-6f88f554fc-j6r8m       Readiness probe failed: Get "http://10.42.1.19:8000/api/health/ready": dial tcp 10.42.1.19:8000: connect: connection refused
+8m39s       Normal    SuccessfulRescale      horizontalpodautoscaler/hanni-api    New size: 4; reason: All metrics below target
+8m39s       Normal    SuccessfulDelete       replicaset/hanni-api-6f88f554fc      Deleted pod: hanni-api-6f88f554fc-lw2cn
+8m39s       Normal    Killing                pod/hanni-api-6f88f554fc-lw2cn       Stopping container api
+8m39s       Normal    ScalingReplicaSet      deployment/hanni-api                 Scaled down replica set hanni-api-6f88f554fc to 4 from 5
+8m3s        Warning   Unhealthy              pod/hanni-api-6f88f554fc-lw2cn       Readiness probe failed: Get "http://10.42.0.24:8000/api/health/ready": dial tcp 10.42.0.24:8000: connect: connection refused
+7m39s       Normal    SuccessfulRescale      horizontalpodautoscaler/hanni-api    New size: 3; reason: All metrics below target
+7m39s       Normal    SuccessfulDelete       replicaset/hanni-api-6f88f554fc      Deleted pod: hanni-api-6f88f554fc-jcg5t
+7m39s       Normal    Killing                pod/hanni-api-6f88f554fc-jcg5t       Stopping container api
+7m39s       Normal    ScalingReplicaSet      deployment/hanni-api                 Scaled down replica set hanni-api-6f88f554fc to 3 from 4
+7m3s        Warning   Unhealthy              pod/hanni-api-6f88f554fc-jcg5t       Readiness probe failed: Get "http://10.42.1.18:8000/api/health/ready": dial tcp 10.42.1.18:8000: connect: connection refused
+6m39s       Normal    SuccessfulDelete       replicaset/hanni-api-6f88f554fc      Deleted pod: hanni-api-6f88f554fc-l48z7
+6m39s       Normal    Killing                pod/hanni-api-6f88f554fc-l48z7       Stopping container api
+6m39s       Normal    SuccessfulRescale      horizontalpodautoscaler/hanni-api    New size: 2; reason: All metrics below target
+6m39s       Normal    ScalingReplicaSet      deployment/hanni-api                 Scaled down replica set hanni-api-6f88f554fc to 2 from 3
+6m3s        Warning   Unhealthy              pod/hanni-api-6f88f554fc-l48z7       Readiness probe failed: Get "http://10.42.0.26:8000/api/health/ready": dial tcp 10.42.0.26:8000: connect: connection refused
+116s        Normal    WaitForFirstConsumer   persistentvolumeclaim/hanni-backup   waiting for first consumer to be created before binding

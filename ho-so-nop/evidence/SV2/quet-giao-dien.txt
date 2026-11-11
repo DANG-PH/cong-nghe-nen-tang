@@ -1,0 +1,14 @@
+360px light khach: tràn ngang 0px, nút dưới 32px: không, chữ dưới 12px: 0, chế độ tối áp dụng: false
+360px light dang-nhap: tràn ngang 0px, nút dưới 32px: không, chữ dưới 12px: 0, chế độ tối áp dụng: false
+360px dark khach: tràn ngang 0px, nút dưới 32px: không, chữ dưới 12px: 0, chế độ tối áp dụng: true
+360px dark dang-nhap: tràn ngang 0px, nút dưới 32px: không, chữ dưới 12px: 0, chế độ tối áp dụng: true
+390px light khach: tràn ngang 0px, nút dưới 32px: không, chữ dưới 12px: 0, chế độ tối áp dụng: false
+390px light dang-nhap: tràn ngang 0px, nút dưới 32px: không, chữ dưới 12px: 0, chế độ tối áp dụng: false
+390px dark khach: tràn ngang 0px, nút dưới 32px: không, chữ dưới 12px: 0, chế độ tối áp dụng: true
+390px dark dang-nhap: tràn ngang 0px, nút dưới 32px: không, chữ dưới 12px: 0, chế độ tối áp dụng: true
+1440px light khach: tràn ngang 0px, nút dưới 32px: không, chữ dưới 12px: 0, chế độ tối áp dụng: false
+1440px light dang-nhap: tràn ngang 0px, nút dưới 32px: không, chữ dưới 12px: 0, chế độ tối áp dụng: false
+1440px dark khach: tràn ngang 0px, nút dưới 32px: không, chữ dưới 12px: 0, chế độ tối áp dụng: true
+1440px dark dang-nhap: tràn ngang 0px, nút dưới 32px: không, chữ dưới 12px: 0, chế độ tối áp dụng: true
+Thứ tự Tab trong vùng nội dung: Xem video [có viền focus] → Tải về [có viền focus] → Nghe [có viền focus]
+Bàn phím: Enter mở được video và bài nghe. Nhãn trình phát: VIDEO: Bốn thanh điệu tiếng Trung, controls=true; AUDIO: Gói nghe bài 1: Chào hỏi, controls=true

@@ -1,0 +1,205 @@
+Dựng lại từ README, máy của Đăng, 2026-11-07 08:32:40 +0700, commit fc50406
+=== make down bắt đầu 08:32:40
+docker compose down -v
+ Container hanni-lab-agent-1 Stopping 
+ Container hanni-lab-server-1 Stopping 
+ Container hanni-lab-agent-1 Stopped 
+ Container hanni-lab-agent-1 Removing 
+ Container hanni-lab-server-1 Stopped 
+ Container hanni-lab-server-1 Removing 
+ Container hanni-lab-agent-1 Removed 
+ Container hanni-lab-server-1 Removed 
+ Volume hanni-lab_k3s-agent Removing 
+ Volume hanni-lab_k3s-server Removing 
+ Volume hanni-lab_k3s-agent-node Removing 
+ Network hanni-lab_default Removing 
+ Network hanni-lab_default Removed 
+ Volume hanni-lab_k3s-agent Removed 
+ Volume hanni-lab_k3s-server Removed 
+ Volume hanni-lab_k3s-agent-node Removed 
+=== make down xong, mã 0, 13 giây
+=== make up bắt đầu 08:32:53
+ Volume hanni-lab_k3s-server Creating 
+ Volume hanni-lab_k3s-agent Creating 
+ Volume hanni-lab_k3s-agent Creating 
+ Network hanni-lab_default Creating 
+ Volume hanni-lab_k3s-server Created 
+ Volume hanni-lab_k3s-server Created 
+ Volume hanni-lab_k3s-agent Created 
+ Volume hanni-lab_k3s-agent Created 
+ Volume hanni-lab_k3s-agent-node Created 
+ Volume hanni-lab_k3s-agent-node Created 
+ Network hanni-lab_default Created 
+ Network hanni-lab_default Created 
+ Container hanni-lab-server-1 Creating 
+ Container hanni-lab-agent-1 Creating 
+ Container hanni-lab-agent-1 Created 
+ Container hanni-lab-server-1 Created 
+ Container hanni-lab-server-1 Starting 
+ Container hanni-lab-agent-1 Starting 
+ Container hanni-lab-server-1 Started 
+ Container hanni-lab-agent-1 Started 
+./scripts/cho-du-node.sh
+kubectl get nodes
+NAME         STATUS   ROLES                  AGE   VERSION
+k3s-agent    Ready    <none>                 3s    v1.31.6+k3s1
+k3s-server   Ready    control-plane,master   13s   v1.31.6+k3s1
+./scripts/secrets.sh
+namespace/hanni created
+namespace/observability created
+secret/hanni-secrets created
+secret/grafana-admin created
+=== make up xong, mã 0, 25 giây
+=== make images bắt đầu 08:33:18
+application/vnd.oci.image.index.v1+json sha256:9859dfcf13e6303d81feb1b3bac07020c444aebcc7f9227108688e521261328d
+Importing	elapsed: 41.2s	total:   0.0 B	(0.0 B/s)	
+docker.io/library/hanni api:lab         	saved	
+docker.io/library/hanni tools:lab       	saved	
+application/vnd.oci.image.index.v1+json sha256:9859dfcf13e6303d81feb1b3bac07020c444aebcc7f9227108688e521261328d
+application/vnd.oci.image.index.v1+json sha256:143cae30d6cb3320f214f52ffb23f122a4c728dd4928bc9611fcd2f2fe4a3f22
+Importing	elapsed: 41.2s	total:   0.0 B	(0.0 B/s)	
+docker.io/library/hanni api:lab         	saved	
+docker.io/library/hanni tools:lab       	saved	
+docker.io/library/postgres:16 alpine    	saved	
+application/vnd.oci.image.index.v1+json sha256:9859dfcf13e6303d81feb1b3bac07020c444aebcc7f9227108688e521261328d
+application/vnd.oci.image.index.v1+json sha256:143cae30d6cb3320f214f52ffb23f122a4c728dd4928bc9611fcd2f2fe4a3f22
+application/vnd.oci.image.index.v1+json sha256:aa6cb33cf4c19c765cefcf48d96176258800870a9a1e930ad126200f9d825139
+Importing	elapsed: 41.2s	total:   0.0 B	(0.0 B/s)	
+docker save hanni-api:lab hanni-tools:lab postgres:16-alpine | docker compose exec -T agent ctr images import -
+docker.io/library/hanni api:lab         	saved	
+application/vnd.oci.image.index.v1+json sha256:9859dfcf13e6303d81feb1b3bac07020c444aebcc7f9227108688e521261328d
+Importing	elapsed: 38.6s	total:   0.0 B	(0.0 B/s)	
+docker.io/library/hanni api:lab         	saved	
+docker.io/library/hanni tools:lab       	saved	
+application/vnd.oci.image.index.v1+json sha256:9859dfcf13e6303d81feb1b3bac07020c444aebcc7f9227108688e521261328d
+application/vnd.oci.image.index.v1+json sha256:143cae30d6cb3320f214f52ffb23f122a4c728dd4928bc9611fcd2f2fe4a3f22
+Importing	elapsed: 38.6s	total:   0.0 B	(0.0 B/s)	
+docker.io/library/hanni api:lab         	saved	
+docker.io/library/hanni tools:lab       	saved	
+docker.io/library/postgres:16 alpine    	saved	
+application/vnd.oci.image.index.v1+json sha256:9859dfcf13e6303d81feb1b3bac07020c444aebcc7f9227108688e521261328d
+application/vnd.oci.image.index.v1+json sha256:143cae30d6cb3320f214f52ffb23f122a4c728dd4928bc9611fcd2f2fe4a3f22
+application/vnd.oci.image.index.v1+json sha256:aa6cb33cf4c19c765cefcf48d96176258800870a9a1e930ad126200f9d825139
+Importing	elapsed: 38.6s	total:   0.0 B	(0.0 B/s)	
+=== make images xong, mã 0, 87 giây
+=== make deploy bắt đầu 08:34:45
+service/hanni-postgres created
+service/hanni-postgres-replica created
+service/hanni-redis created
+persistentvolumeclaim/hanni-backup created
+deployment.apps/hanni-api created
+deployment.apps/hanni-media created
+deployment.apps/hanni-pgbouncer created
+deployment.apps/hanni-pgbouncer-ro created
+deployment.apps/hanni-redis created
+deployment.apps/hanni-worker created
+statefulset.apps/hanni-postgres created
+statefulset.apps/hanni-postgres-replica created
+cronjob.batch/hanni-backup created
+poddisruptionbudget.policy/hanni-api created
+horizontalpodautoscaler.autoscaling/hanni-api created
+ingress.networking.k8s.io/hanni created
+networkpolicy.networking.k8s.io/allow-backend-to-cache created
+networkpolicy.networking.k8s.io/allow-ingress-to-web created
+networkpolicy.networking.k8s.io/allow-postgres created
+networkpolicy.networking.k8s.io/allow-postgres-replica created
+networkpolicy.networking.k8s.io/allow-prometheus created
+networkpolicy.networking.k8s.io/default-deny-ingress created
+kubectl -n hanni rollout status statefulset/hanni-postgres --timeout=900s
+Waiting for 1 pods to be ready...
+partitioned roll out complete: 1 new pods have been updated...
+kubectl -n hanni rollout status statefulset/hanni-postgres-replica --timeout=600s
+Waiting for 1 pods to be ready...
+partitioned roll out complete: 1 new pods have been updated...
+kubectl -n hanni rollout status deployment/hanni-pgbouncer --timeout=120s
+deployment "hanni-pgbouncer" successfully rolled out
+=== make deploy xong, mã 0, 33 giây
+=== make seed bắt đầu 08:35:18
+kubectl apply -f /infra/k8s/app/jobs.yaml -l step=migrate
+job.batch/hanni-migrate created
+kubectl -n hanni wait --for=condition=complete job/hanni-migrate --timeout=300s
+job.batch/hanni-migrate condition met
+kubectl apply -f /infra/k8s/app/jobs.yaml -l step=seed
+job.batch/hanni-seed created
+kubectl -n hanni wait --for=condition=complete job/hanni-seed --timeout=900s
+job.batch/hanni-seed condition met
+kubectl apply -f /infra/k8s/app/jobs.yaml -l step=users
+job.batch/hanni-users created
+kubectl -n hanni wait --for=condition=complete job/hanni-users --timeout=300s
+job.batch/hanni-users condition met
+kubectl -n hanni logs job/hanni-users | sed -n 's/^TOKENS=//p' > k6/tokens.json
+kubectl -n hanni rollout restart deployment/hanni-api deployment/hanni-worker
+deployment.apps/hanni-api restarted
+deployment.apps/hanni-worker restarted
+kubectl -n hanni rollout status deployment/hanni-api --timeout=300s
+Waiting for deployment "hanni-api" rollout to finish: 1 out of 2 new replicas have been updated...
+Waiting for deployment "hanni-api" rollout to finish: 1 out of 2 new replicas have been updated...
+Waiting for deployment "hanni-api" rollout to finish: 1 out of 2 new replicas have been updated...
+Waiting for deployment "hanni-api" rollout to finish: 1 old replicas are pending termination...
+Waiting for deployment "hanni-api" rollout to finish: 1 old replicas are pending termination...
+deployment "hanni-api" successfully rolled out
+=== make seed xong, mã 0, 53 giây
+=== make observability bắt đầu 08:36:11
+clusterrole.rbac.authorization.k8s.io/hanni-kube-state-metrics created
+clusterrole.rbac.authorization.k8s.io/hanni-prometheus created
+clusterrolebinding.rbac.authorization.k8s.io/hanni-alloy created
+clusterrolebinding.rbac.authorization.k8s.io/hanni-kube-state-metrics created
+clusterrolebinding.rbac.authorization.k8s.io/hanni-prometheus created
+configmap/alertmanager-config created
+configmap/alloy-config created
+configmap/blackbox-config created
+configmap/grafana-dashboards created
+configmap/grafana-provisioning created
+configmap/jaeger-config created
+configmap/loki-config created
+configmap/prometheus-config created
+configmap/prometheus-rules created
+service/alertmanager created
+service/blackbox created
+service/grafana created
+service/jaeger created
+service/kube-state-metrics created
+service/loki created
+service/prometheus created
+deployment.apps/alertmanager created
+deployment.apps/alloy created
+deployment.apps/blackbox created
+deployment.apps/grafana created
+deployment.apps/jaeger created
+deployment.apps/kube-state-metrics created
+deployment.apps/loki created
+deployment.apps/prometheus created
+ingress.networking.k8s.io/observability created
+=== make observability xong, mã 0, 2 giây
+=== make status bắt đầu 08:36:13
+pod/hanni-pgbouncer-648f8ddcc9-72gdg      1/1     Running       0          86s
+pod/hanni-pgbouncer-ro-86c56d4454-gkq5f   1/1     Running       0          86s
+pod/hanni-postgres-0                      2/2     Running       0          86s
+pod/hanni-postgres-replica-0              2/2     Running       0          86s
+pod/hanni-redis-5f976664cb-ld845          2/2     Running       0          86s
+pod/hanni-seed-t94vt                      0/1     Completed     0          48s
+pod/hanni-users-qnl8f                     0/1     Completed     0          24s
+pod/hanni-worker-567b6c9597-bb5l8         1/1     Running       0          86s
+pod/hanni-worker-567b6c9597-g97w9         1/1     Running       0          86s
+pod/hanni-worker-5bc8c6477d-5lpd6         0/1     Running       0          9s
+
+NAME                                            REFERENCE              TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+horizontalpodautoscaler.autoscaling/hanni-api   Deployment/hanni-api   cpu: <unknown>/65%   2         6         2          86s
+
+NAME                                   MIN AVAILABLE   MAX UNAVAILABLE   ALLOWED DISRUPTIONS   AGE
+poddisruptionbudget.policy/hanni-api   1               N/A               1                     86s
+kubectl -n observability get pods
+NAME                                  READY   STATUS              RESTARTS   AGE
+alertmanager-5bf78887bd-scx66         0/1     ContainerCreating   0          0s
+alloy-567d4fd9c6-s4rtw                0/1     ContainerCreating   0          0s
+blackbox-5699d4ff5b-qqqxt             0/1     ContainerCreating   0          0s
+grafana-5c46b9bc-tdgnx                0/1     ContainerCreating   0          0s
+jaeger-fc9678864-lfq4k                0/1     ContainerCreating   0          0s
+kube-state-metrics-844d667bff-8nwmn   0/1     ContainerCreating   0          0s
+loki-f459dbf75-8wcvc                  0/1     ContainerCreating   0          0s
+prometheus-68847dbc86-6d6c7           0/1     ContainerCreating   0          0s
+kubectl top nodes
+NAME         CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
+k3s-agent    730m         6%     892Mi           12%       
+k3s-server   200m         1%     1134Mi          15%       
+=== make status xong, mã 0, 0 giây

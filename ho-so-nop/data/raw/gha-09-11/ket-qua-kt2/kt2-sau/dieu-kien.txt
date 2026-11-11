@@ -1,0 +1,15 @@
+Thời điểm: 2026-11-09 12:02:13 +0000
+Commit: f4e29d4
+Image API: hanni-api:lab
+Số bản API: 6, mỗi bản tối đa 1 CPU, 512 MB
+Máy: AMD EPYC 9V74 80-Core Processor, 4 luồng, 15983 MB RAM, Ubuntu 24.04.5 LTS
+k6 chạy chung máy với hệ thống, đi qua loopback tới ingress Traefik
+Làm nóng 1m, đo 5m, 3 lần mỗi mức, mức (lượt mở bài/giây): 10 24 36
+"CRON_LEASE":"true"
+"DB_POOL_MAX":"10"
+"OUTBOX_ENABLED":"true"
+"SHED_LOOP_LAG_MS":"250"
+"SHED_POOL_WAITING":"8"
+"THROTTLE_LIMIT":"300"
+"THROTTLE_SCOPE":"user"
+"THROTTLE_TTL":"60"

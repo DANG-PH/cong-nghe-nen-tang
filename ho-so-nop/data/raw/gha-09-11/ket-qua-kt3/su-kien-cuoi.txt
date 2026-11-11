@@ -1,0 +1,378 @@
+LAST SEEN   TYPE      REASON                         OBJECT                                                MESSAGE
+6m8s        Normal    Scheduled                      pod/hanni-worker-7fbffb6b7c-fcm85                     Successfully assigned hanni/hanni-worker-7fbffb6b7c-fcm85 to k3s-server
+6m46s       Normal    Scheduled                      pod/doc-sao-luu                                       Successfully assigned hanni/doc-sao-luu to k3s-server
+8m35s       Normal    Scheduled                      pod/dem-sao-luu                                       Successfully assigned hanni/dem-sao-luu to k3s-server
+7m11s       Normal    Scheduled                      pod/dem-sao-luu                                       Successfully assigned hanni/dem-sao-luu to k3s-server
+8m59s       Normal    Scheduled                      pod/sao-luu-tay-f58dt                                 Successfully assigned hanni/sao-luu-tay-f58dt to k3s-server
+32m         Normal    Scheduled                      pod/hanni-worker-567b6c9597-j9w59                     Successfully assigned hanni/hanni-worker-567b6c9597-j9w59 to k3s-server
+31m         Normal    Scheduled                      pod/hanni-users-dt7w6                                 Successfully assigned hanni/hanni-users-dt7w6 to k3s-agent
+28m         Normal    Scheduled                      pod/hanni-api-5456c9c9cb-szws8                        Successfully assigned hanni/hanni-api-5456c9c9cb-szws8 to k3s-server
+32m         Normal    Scheduled                      pod/hanni-worker-567b6c9597-lxk7v                     Successfully assigned hanni/hanni-worker-567b6c9597-lxk7v to k3s-agent
+21m         Normal    Scheduled                      pod/hanni-api-5456c9c9cb-8stt8                        Successfully assigned hanni/hanni-api-5456c9c9cb-8stt8 to k3s-server
+25m         Normal    Scheduled                      pod/hanni-api-5456c9c9cb-tjfgc                        Successfully assigned hanni/hanni-api-5456c9c9cb-tjfgc to k3s-server
+28m         Normal    Scheduled                      pod/hanni-api-5456c9c9cb-zwbxk                        Successfully assigned hanni/hanni-api-5456c9c9cb-zwbxk to k3s-agent
+31m         Normal    Scheduled                      pod/hanni-seed-ctqxx                                  Successfully assigned hanni/hanni-seed-ctqxx to k3s-agent
+31m         Normal    Scheduled                      pod/hanni-api-5456c9c9cb-rgc5w                        Successfully assigned hanni/hanni-api-5456c9c9cb-rgc5w to k3s-agent
+8m38s       Normal    Scheduled                      pod/doc-sao-luu                                       Successfully assigned hanni/doc-sao-luu to k3s-server
+8m15s       Normal    Scheduled                      pod/loi-khong-toi-csdl-wxszg                          Successfully assigned hanni/loi-khong-toi-csdl-wxszg to k3s-server
+8m23s       Normal    Scheduled                      pod/loi-khong-ghi-duoc-flphh                          Successfully assigned hanni/loi-khong-ghi-duoc-flphh to k3s-server
+8m33s       Normal    Scheduled                      pod/loi-het-cho-hvfmf                                 Successfully assigned hanni/loi-het-cho-hvfmf to k3s-agent
+32m         Normal    Scheduled                      pod/hanni-api-fdcb48d88-h7fcd                         Successfully assigned hanni/hanni-api-fdcb48d88-h7fcd to k3s-server
+32m         Normal    Scheduled                      pod/hanni-postgres-0                                  Successfully assigned hanni/hanni-postgres-0 to k3s-agent
+32m         Normal    Scheduled                      pod/hanni-api-fdcb48d88-rckh6                         Successfully assigned hanni/hanni-api-fdcb48d88-rckh6 to k3s-agent
+6m8s        Normal    Scheduled                      pod/hanni-api-5456c9c9cb-b9sw4                        Successfully assigned hanni/hanni-api-5456c9c9cb-b9sw4 to k3s-server
+32m         Normal    Scheduled                      pod/hanni-pgbouncer-ro-86c56d4454-nkvhx               Successfully assigned hanni/hanni-pgbouncer-ro-86c56d4454-nkvhx to k3s-server
+17m         Normal    Scheduled                      pod/hanni-postgres-0                                  Successfully assigned hanni/hanni-postgres-0 to k3s-agent
+103s        Normal    Scheduled                      pod/hanni-pgbouncer-dc768f89b-rq6cl                   Successfully assigned hanni/hanni-pgbouncer-dc768f89b-rq6cl to k3s-agent
+25m         Normal    Scheduled                      pod/hanni-api-5456c9c9cb-hd6vm                        Successfully assigned hanni/hanni-api-5456c9c9cb-hd6vm to k3s-agent
+22m         Normal    Scheduled                      pod/hanni-api-5456c9c9cb-57s74                        Successfully assigned hanni/hanni-api-5456c9c9cb-57s74 to k3s-server
+32m         Normal    Scheduled                      pod/hanni-postgres-replica-0                          Successfully assigned hanni/hanni-postgres-replica-0 to k3s-server
+31m         Normal    Scheduled                      pod/hanni-worker-7fbffb6b7c-69fc9                     Successfully assigned hanni/hanni-worker-7fbffb6b7c-69fc9 to k3s-server
+6m8s        Normal    Scheduled                      pod/hanni-worker-7fbffb6b7c-gxvkh                     Successfully assigned hanni/hanni-worker-7fbffb6b7c-gxvkh to k3s-agent
+19m         Normal    Scheduled                      pod/hanni-redis-5f976664cb-8tj8d                      Successfully assigned hanni/hanni-redis-5f976664cb-8tj8d to k3s-server
+6m8s        Normal    Scheduled                      pod/hanni-api-5456c9c9cb-5xzh5                        Successfully assigned hanni/hanni-api-5456c9c9cb-5xzh5 to k3s-agent
+32m         Normal    Scheduled                      pod/hanni-pgbouncer-648f8ddcc9-v2vml                  Successfully assigned hanni/hanni-pgbouncer-648f8ddcc9-v2vml to k3s-agent
+32m         Normal    Scheduled                      pod/hanni-migrate-zbbm6                               Successfully assigned hanni/hanni-migrate-zbbm6 to k3s-agent
+32m         Normal    Scheduled                      pod/hanni-media-576b44c9c4-phhj6                      Successfully assigned hanni/hanni-media-576b44c9c4-phhj6 to k3s-server
+31m         Normal    Scheduled                      pod/hanni-worker-7fbffb6b7c-fpl2t                     Successfully assigned hanni/hanni-worker-7fbffb6b7c-fpl2t to k3s-agent
+7m9s        Normal    Scheduled                      pod/sao-luu-kt3-1794226340-ccndw                      Successfully assigned hanni/sao-luu-kt3-1794226340-ccndw to k3s-server
+22m         Normal    Scheduled                      pod/hanni-api-5456c9c9cb-sg8k6                        Successfully assigned hanni/hanni-api-5456c9c9cb-sg8k6 to k3s-agent
+31m         Normal    Scheduled                      pod/hanni-api-5456c9c9cb-bgxvg                        Successfully assigned hanni/hanni-api-5456c9c9cb-bgxvg to k3s-server
+32m         Normal    Scheduled                      pod/hanni-redis-5f976664cb-ccvrt                      Successfully assigned hanni/hanni-redis-5f976664cb-ccvrt to k3s-server
+32m         Normal    ScalingReplicaSet              deployment/hanni-media                                Scaled up replica set hanni-media-576b44c9c4 to 1
+32m         Normal    ScalingReplicaSet              deployment/hanni-api                                  Scaled up replica set hanni-api-fdcb48d88 to 1
+32m         Normal    SuccessfulCreate               replicaset/hanni-api-fdcb48d88                        Created pod: hanni-api-fdcb48d88-rckh6
+32m         Normal    WaitForFirstConsumer           persistentvolumeclaim/wal-archive-hanni-postgres-0    waiting for first consumer to be created before binding
+32m         Normal    SuccessfulCreate               statefulset/hanni-postgres                            create Claim data-hanni-postgres-0 Pod hanni-postgres-0 in StatefulSet hanni-postgres success
+32m         Normal    SuccessfulCreate               statefulset/hanni-postgres-replica                    create Pod hanni-postgres-replica-0 in StatefulSet hanni-postgres-replica successful
+32m         Normal    SuccessfulCreate               replicaset/hanni-worker-567b6c9597                    Created pod: hanni-worker-567b6c9597-j9w59
+32m         Normal    SuccessfulCreate               replicaset/hanni-worker-567b6c9597                    Created pod: hanni-worker-567b6c9597-lxk7v
+32m         Normal    SuccessfulCreate               statefulset/hanni-postgres                            create Claim wal-archive-hanni-postgres-0 Pod hanni-postgres-0 in StatefulSet hanni-postgres success
+32m         Normal    SuccessfulCreate               replicaset/hanni-media-576b44c9c4                     Created pod: hanni-media-576b44c9c4-phhj6
+32m         Normal    Pulling                        pod/hanni-media-576b44c9c4-phhj6                      Pulling image "nginx:alpine"
+32m         Normal    SuccessfulCreate               statefulset/hanni-postgres-replica                    create Claim data-hanni-postgres-replica-0 Pod hanni-postgres-replica-0 in StatefulSet hanni-postgres-replica success
+32m         Normal    Pulling                        pod/hanni-pgbouncer-648f8ddcc9-v2vml                  Pulling image "edoburu/pgbouncer:v1.24.1-p1"
+32m         Normal    SuccessfulCreate               replicaset/hanni-pgbouncer-648f8ddcc9                 Created pod: hanni-pgbouncer-648f8ddcc9-v2vml
+32m         Normal    Started                        pod/hanni-api-fdcb48d88-rckh6                         Started container api
+32m         Normal    Created                        pod/hanni-api-fdcb48d88-rckh6                         Created container: api
+32m         Normal    Pulled                         pod/hanni-api-fdcb48d88-rckh6                         Container image "hanni-api:lab" already present on machine
+32m         Normal    ScalingReplicaSet              deployment/hanni-worker                               Scaled up replica set hanni-worker-567b6c9597 to 2
+32m         Normal    SuccessfulCreate               replicaset/hanni-pgbouncer-ro-86c56d4454              Created pod: hanni-pgbouncer-ro-86c56d4454-nkvhx
+32m         Normal    ExternalProvisioning           persistentvolumeclaim/wal-archive-hanni-postgres-0    Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+32m         Normal    SuccessfulCreate               replicaset/hanni-redis-5f976664cb                     Created pod: hanni-redis-5f976664cb-ccvrt
+32m         Normal    Created                        pod/hanni-worker-567b6c9597-lxk7v                     Created container: worker
+32m         Normal    Pulled                         pod/hanni-worker-567b6c9597-lxk7v                     Container image "hanni-api:lab" already present on machine
+32m         Normal    Provisioning                   persistentvolumeclaim/wal-archive-hanni-postgres-0    External provisioner is provisioning volume for claim "hanni/wal-archive-hanni-postgres-0"
+32m         Normal    ScalingReplicaSet              deployment/hanni-redis                                Scaled up replica set hanni-redis-5f976664cb to 1
+32m         Normal    ScalingReplicaSet              deployment/hanni-pgbouncer-ro                         Scaled up replica set hanni-pgbouncer-ro-86c56d4454 to 1
+32m         Normal    ScalingReplicaSet              deployment/hanni-pgbouncer                            Scaled up replica set hanni-pgbouncer-648f8ddcc9 to 1
+32m         Normal    WaitForFirstConsumer           persistentvolumeclaim/data-hanni-postgres-0           waiting for first consumer to be created before binding
+32m         Normal    Provisioning                   persistentvolumeclaim/data-hanni-postgres-replica-0   External provisioner is provisioning volume for claim "hanni/data-hanni-postgres-replica-0"
+32m         Normal    ExternalProvisioning           persistentvolumeclaim/data-hanni-postgres-replica-0   Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+32m         Normal    WaitForFirstConsumer           persistentvolumeclaim/data-hanni-postgres-replica-0   waiting for first consumer to be created before binding
+32m         Normal    Provisioning                   persistentvolumeclaim/data-hanni-postgres-0           External provisioner is provisioning volume for claim "hanni/data-hanni-postgres-0"
+32m         Normal    ExternalProvisioning           persistentvolumeclaim/data-hanni-postgres-0           Waiting for a volume to be created either by the external provisioner 'rancher.io/local-path' or manually by the system administrator. If volume creation is delayed, please verify that the provisioner is running and correctly registered.
+32m         Normal    Started                        pod/hanni-worker-567b6c9597-lxk7v                     Started container worker
+32m         Normal    Created                        pod/hanni-worker-567b6c9597-j9w59                     Created container: worker
+32m         Normal    Pulled                         pod/hanni-worker-567b6c9597-j9w59                     Container image "hanni-api:lab" already present on machine
+32m         Normal    Started                        pod/hanni-worker-567b6c9597-j9w59                     Started container worker
+32m         Normal    Pulling                        pod/hanni-pgbouncer-ro-86c56d4454-nkvhx               Pulling image "edoburu/pgbouncer:v1.24.1-p1"
+32m         Normal    Pulling                        pod/hanni-redis-5f976664cb-ccvrt                      Pulling image "redis:7-alpine"
+32m         Normal    Created                        pod/hanni-pgbouncer-648f8ddcc9-v2vml                  Created container: pgbouncer
+32m         Normal    Pulled                         pod/hanni-pgbouncer-648f8ddcc9-v2vml                  Successfully pulled image "edoburu/pgbouncer:v1.24.1-p1" in 2.103s (2.103s including waiting). Image size: 7090767 bytes.
+32m         Normal    Created                        pod/hanni-media-576b44c9c4-phhj6                      Created container: nginx
+32m         Normal    Pulled                         pod/hanni-media-576b44c9c4-phhj6                      Successfully pulled image "nginx:alpine" in 3.443s (3.443s including waiting). Image size: 26368486 bytes.
+32m         Normal    Started                        pod/hanni-pgbouncer-648f8ddcc9-v2vml                  Started container pgbouncer
+32m         Normal    Pulled                         pod/hanni-redis-5f976664cb-ccvrt                      Successfully pulled image "redis:7-alpine" in 3.126s (3.126s including waiting). Image size: 16261822 bytes.
+32m         Normal    Created                        pod/hanni-redis-5f976664cb-ccvrt                      Created container: redis
+32m         Normal    Started                        pod/hanni-redis-5f976664cb-ccvrt                      Started container redis
+32m         Normal    Started                        pod/hanni-media-576b44c9c4-phhj6                      Started container nginx
+32m         Normal    Pulled                         pod/hanni-pgbouncer-ro-86c56d4454-nkvhx               Successfully pulled image "edoburu/pgbouncer:v1.24.1-p1" in 2.668s (2.668s including waiting). Image size: 7090767 bytes.
+32m         Normal    Pulling                        pod/hanni-redis-5f976664cb-ccvrt                      Pulling image "oliver006/redis_exporter:v1.69.0-alpine"
+32m         Normal    Started                        pod/hanni-pgbouncer-ro-86c56d4454-nkvhx               Started container pgbouncer
+32m         Normal    Created                        pod/hanni-pgbouncer-ro-86c56d4454-nkvhx               Created container: pgbouncer
+32m         Normal    ProvisioningSucceeded          persistentvolumeclaim/data-hanni-postgres-replica-0   Successfully provisioned volume pvc-396d78b0-0829-48c7-84d9-03493c273d1f
+32m         Normal    ProvisioningSucceeded          persistentvolumeclaim/wal-archive-hanni-postgres-0    Successfully provisioned volume pvc-5ae41418-30d4-42b5-8e9d-cc433252cf51
+32m         Normal    ProvisioningSucceeded          persistentvolumeclaim/data-hanni-postgres-0           Successfully provisioned volume pvc-08201957-3aae-4957-89fa-1ba05d6a6f57
+32m         Normal    Created                        pod/hanni-redis-5f976664cb-ccvrt                      Created container: exporter
+32m         Normal    Started                        pod/hanni-redis-5f976664cb-ccvrt                      Started container exporter
+32m         Normal    Pulled                         pod/hanni-redis-5f976664cb-ccvrt                      Successfully pulled image "oliver006/redis_exporter:v1.69.0-alpine" in 1.83s (1.83s including waiting). Image size: 7661743 bytes.
+32m         Normal    Started                        pod/hanni-postgres-replica-0                          Started container clone
+32m         Normal    Created                        pod/hanni-postgres-replica-0                          Created container: clone
+32m         Normal    Pulled                         pod/hanni-postgres-replica-0                          Container image "postgres:16-alpine" already present on machine
+32m         Normal    Pulled                         pod/hanni-postgres-0                                  Container image "postgres:16-alpine" already present on machine
+32m         Normal    Pulling                        pod/hanni-postgres-0                                  Pulling image "quay.io/prometheuscommunity/postgres-exporter:v0.17.1"
+32m         Normal    Created                        pod/hanni-postgres-0                                  Created container: postgres
+32m         Normal    Started                        pod/hanni-postgres-0                                  Started container postgres
+32m         Normal    Pulled                         pod/hanni-postgres-0                                  Successfully pulled image "quay.io/prometheuscommunity/postgres-exporter:v0.17.1" in 2.099s (2.099s including waiting). Image size: 11215599 bytes.
+32m         Normal    Started                        pod/hanni-postgres-0                                  Started container exporter
+32m         Normal    Created                        pod/hanni-postgres-0                                  Created container: exporter
+32m         Warning   Unhealthy                      pod/hanni-postgres-0                                  Readiness probe failed: /var/run/postgresql:5432 - no response
+32m         Normal    Created                        pod/hanni-postgres-replica-0                          Created container: postgres
+32m         Normal    ScalingReplicaSet              deployment/hanni-api                                  Scaled up replica set hanni-api-fdcb48d88 to 2 from 1
+32m         Normal    Pulling                        pod/hanni-postgres-replica-0                          Pulling image "quay.io/prometheuscommunity/postgres-exporter:v0.17.1"
+32m         Normal    Started                        pod/hanni-postgres-replica-0                          Started container postgres
+32m         Normal    SuccessfulRescale              horizontalpodautoscaler/hanni-api                     New size: 2; reason: Current number of replicas below Spec.MinReplicas
+32m         Normal    Pulled                         pod/hanni-postgres-replica-0                          Container image "postgres:16-alpine" already present on machine
+32m         Normal    SuccessfulCreate               replicaset/hanni-api-fdcb48d88                        Created pod: hanni-api-fdcb48d88-h7fcd
+32m         Normal    Pulled                         pod/hanni-api-fdcb48d88-h7fcd                         Container image "hanni-api:lab" already present on machine
+32m         Normal    Pulled                         pod/hanni-postgres-replica-0                          Successfully pulled image "quay.io/prometheuscommunity/postgres-exporter:v0.17.1" in 1.509s (1.509s including waiting). Image size: 11215599 bytes.
+32m         Normal    Started                        pod/hanni-postgres-replica-0                          Started container exporter
+32m         Normal    Created                        pod/hanni-postgres-replica-0                          Created container: exporter
+32m         Normal    Started                        pod/hanni-api-fdcb48d88-h7fcd                         Started container api
+32m         Normal    Created                        pod/hanni-api-fdcb48d88-h7fcd                         Created container: api
+32m         Normal    SuccessfulCreate               job/hanni-migrate                                     Created pod: hanni-migrate-zbbm6
+32m         Normal    Pulled                         pod/hanni-migrate-zbbm6                               Container image "hanni-tools:lab" already present on machine
+32m         Warning   Unhealthy                      pod/hanni-worker-567b6c9597-j9w59                     Startup probe failed: Get "http://10.42.0.11:8000/api/health/live": dial tcp 10.42.0.11:8000: connect: connection refused
+32m         Normal    Started                        pod/hanni-migrate-zbbm6                               Started container migrate
+32m         Warning   Unhealthy                      pod/hanni-api-fdcb48d88-h7fcd                         Startup probe failed: Get "http://10.42.0.14:8000/api/health/live": dial tcp 10.42.0.14:8000: connect: connection refused
+32m         Normal    Created                        pod/hanni-migrate-zbbm6                               Created container: migrate
+31m         Warning   Unhealthy                      pod/hanni-worker-567b6c9597-lxk7v                     Startup probe failed: Get "http://10.42.1.6:8000/api/health/live": dial tcp 10.42.1.6:8000: connect: connection refused
+31m         Warning   Unhealthy                      pod/hanni-api-fdcb48d88-rckh6                         Startup probe failed: Get "http://10.42.1.4:8000/api/health/live": dial tcp 10.42.1.4:8000: connect: connection refused
+31m         Normal    SuccessfulCreate               job/hanni-seed                                        Created pod: hanni-seed-ctqxx
+31m         Normal    Completed                      job/hanni-migrate                                     Job completed
+31m         Normal    Started                        pod/hanni-seed-ctqxx                                  Started container seed
+31m         Normal    Created                        pod/hanni-seed-ctqxx                                  Created container: seed
+31m         Normal    Pulled                         pod/hanni-seed-ctqxx                                  Container image "hanni-tools:lab" already present on machine
+31m         Normal    SuccessfulCreate               job/hanni-users                                       Created pod: hanni-users-dt7w6
+31m         Normal    Completed                      job/hanni-seed                                        Job completed
+31m         Normal    Started                        pod/hanni-users-dt7w6                                 Started container users
+31m         Normal    Created                        pod/hanni-users-dt7w6                                 Created container: users
+31m         Normal    Pulled                         pod/hanni-users-dt7w6                                 Container image "hanni-tools:lab" already present on machine
+31m         Normal    ScalingReplicaSet              deployment/hanni-api                                  Scaled up replica set hanni-api-5456c9c9cb to 1
+31m         Normal    Completed                      job/hanni-users                                       Job completed
+31m         Normal    Created                        pod/hanni-api-5456c9c9cb-rgc5w                        Created container: api
+31m         Normal    SuccessfulCreate               replicaset/hanni-worker-7fbffb6b7c                    Created pod: hanni-worker-7fbffb6b7c-69fc9
+31m         Normal    Created                        pod/hanni-worker-7fbffb6b7c-69fc9                     Created container: worker
+31m         Normal    Started                        pod/hanni-api-5456c9c9cb-rgc5w                        Started container api
+31m         Normal    Pulled                         pod/hanni-worker-7fbffb6b7c-69fc9                     Container image "hanni-api:lab" already present on machine
+31m         Normal    ScalingReplicaSet              deployment/hanni-worker                               Scaled up replica set hanni-worker-7fbffb6b7c to 1
+31m         Normal    SuccessfulCreate               replicaset/hanni-api-5456c9c9cb                       Created pod: hanni-api-5456c9c9cb-rgc5w
+31m         Normal    Started                        pod/hanni-worker-7fbffb6b7c-69fc9                     Started container worker
+31m         Normal    Pulled                         pod/hanni-api-5456c9c9cb-rgc5w                        Container image "hanni-api:lab" already present on machine
+31m         Normal    Killing                        pod/hanni-api-fdcb48d88-rckh6                         Stopping container api
+31m         Normal    SuccessfulCreate               replicaset/hanni-api-5456c9c9cb                       Created pod: hanni-api-5456c9c9cb-bgxvg
+31m         Warning   Unhealthy                      pod/hanni-worker-7fbffb6b7c-69fc9                     Startup probe failed: Get "http://10.42.0.15:8000/api/health/live": dial tcp 10.42.0.15:8000: connect: connection refused
+31m         Normal    ScalingReplicaSet              deployment/hanni-api                                  Scaled up replica set hanni-api-5456c9c9cb to 2 from 1
+31m         Normal    ScalingReplicaSet              deployment/hanni-api                                  Scaled down replica set hanni-api-fdcb48d88 to 1 from 2
+31m         Normal    SuccessfulDelete               replicaset/hanni-api-fdcb48d88                        Deleted pod: hanni-api-fdcb48d88-rckh6
+31m         Normal    Started                        pod/hanni-api-5456c9c9cb-bgxvg                        Started container api
+31m         Normal    Pulled                         pod/hanni-api-5456c9c9cb-bgxvg                        Container image "hanni-api:lab" already present on machine
+31m         Normal    Created                        pod/hanni-api-5456c9c9cb-bgxvg                        Created container: api
+31m         Normal    Started                        pod/hanni-worker-7fbffb6b7c-fpl2t                     Started container worker
+31m         Normal    Killing                        pod/hanni-worker-567b6c9597-j9w59                     Stopping container worker
+31m         Normal    SuccessfulDelete               replicaset/hanni-worker-567b6c9597                    Deleted pod: hanni-worker-567b6c9597-j9w59
+31m         Normal    ScalingReplicaSet              deployment/hanni-worker                               Scaled down replica set hanni-worker-567b6c9597 to 1 from 2
+31m         Normal    ScalingReplicaSet              deployment/hanni-worker                               Scaled up replica set hanni-worker-7fbffb6b7c to 2 from 1
+31m         Normal    Pulled                         pod/hanni-worker-7fbffb6b7c-fpl2t                     Container image "hanni-api:lab" already present on machine
+31m         Normal    Created                        pod/hanni-worker-7fbffb6b7c-fpl2t                     Created container: worker
+31m         Normal    SuccessfulCreate               replicaset/hanni-worker-7fbffb6b7c                    Created pod: hanni-worker-7fbffb6b7c-fpl2t
+31m         Normal    SuccessfulDelete               replicaset/hanni-api-fdcb48d88                        Deleted pod: hanni-api-fdcb48d88-h7fcd
+31m         Normal    ScalingReplicaSet              deployment/hanni-api                                  Scaled down replica set hanni-api-fdcb48d88 to 0 from 1
+31m         Normal    Killing                        pod/hanni-api-fdcb48d88-h7fcd                         Stopping container api
+31m         Warning   Unhealthy                      pod/hanni-worker-7fbffb6b7c-fpl2t                     Startup probe failed: Get "http://10.42.1.14:8000/api/health/live": dial tcp 10.42.1.14:8000: connect: connection refused
+31m         Normal    ScalingReplicaSet              deployment/hanni-worker                               Scaled down replica set hanni-worker-567b6c9597 to 0 from 1
+31m         Normal    SuccessfulDelete               replicaset/hanni-worker-567b6c9597                    Deleted pod: hanni-worker-567b6c9597-lxk7v
+31m         Normal    Killing                        pod/hanni-worker-567b6c9597-lxk7v                     Stopping container worker
+30m         Normal    Killing                        pod/hanni-api-5456c9c9cb-rgc5w                        Stopping container api
+30m         Normal    SuccessfulDelete               replicaset/hanni-api-5456c9c9cb                       Deleted pod: hanni-api-5456c9c9cb-rgc5w
+30m         Normal    Killing                        pod/hanni-api-5456c9c9cb-bgxvg                        Stopping container api
+30m         Normal    SuccessfulDelete               replicaset/hanni-api-5456c9c9cb                       Deleted pod: hanni-api-5456c9c9cb-bgxvg
+30m         Warning   Unhealthy                      pod/hanni-api-fdcb48d88-rckh6                         Readiness probe failed: Get "http://10.42.1.4:8000/api/health/ready": dial tcp 10.42.1.4:8000: connect: connection refused
+30m         Warning   Unhealthy                      pod/hanni-api-fdcb48d88-h7fcd                         Readiness probe failed: Get "http://10.42.0.14:8000/api/health/ready": dial tcp 10.42.0.14:8000: connect: connection refused
+30m         Warning   Unhealthy                      pod/hanni-api-5456c9c9cb-bgxvg                        Readiness probe failed: Get "http://10.42.0.16:8000/api/health/ready": dial tcp 10.42.0.16:8000: connect: connection refused
+30m         Warning   Unhealthy                      pod/hanni-api-5456c9c9cb-rgc5w                        Readiness probe failed: Get "http://10.42.1.13:8000/api/health/ready": dial tcp 10.42.1.13:8000: connect: connection refused
+28m         Normal    Started                        pod/hanni-api-5456c9c9cb-zwbxk                        Started container api
+28m         Normal    Pulled                         pod/hanni-api-5456c9c9cb-zwbxk                        Container image "hanni-api:lab" already present on machine
+28m         Normal    Pulled                         pod/hanni-api-5456c9c9cb-szws8                        Container image "hanni-api:lab" already present on machine
+28m         Normal    Created                        pod/hanni-api-5456c9c9cb-szws8                        Created container: api
+28m         Normal    Started                        pod/hanni-api-5456c9c9cb-szws8                        Started container api
+28m         Normal    SuccessfulCreate               replicaset/hanni-api-5456c9c9cb                       Created pod: hanni-api-5456c9c9cb-szws8
+28m         Normal    SuccessfulCreate               replicaset/hanni-api-5456c9c9cb                       Created pod: hanni-api-5456c9c9cb-zwbxk
+28m         Normal    Created                        pod/hanni-api-5456c9c9cb-zwbxk                        Created container: api
+28m         Warning   Unhealthy                      pod/hanni-api-5456c9c9cb-zwbxk                        Startup probe failed: Get "http://10.42.1.23:8000/api/health/live": dial tcp 10.42.1.23:8000: connect: connection refused
+27m         Normal    SuccessfulDelete               replicaset/hanni-api-5456c9c9cb                       Deleted pod: hanni-api-5456c9c9cb-szws8
+27m         Normal    Killing                        pod/hanni-api-5456c9c9cb-zwbxk                        Stopping container api
+27m         Normal    Killing                        pod/hanni-api-5456c9c9cb-szws8                        Stopping container api
+27m         Normal    SuccessfulDelete               replicaset/hanni-api-5456c9c9cb                       Deleted pod: hanni-api-5456c9c9cb-zwbxk
+27m         Warning   Unhealthy                      pod/hanni-api-5456c9c9cb-szws8                        Readiness probe failed: Get "http://10.42.0.17:8000/api/health/ready": dial tcp 10.42.0.17:8000: connect: connection refused
+27m         Warning   Unhealthy                      pod/hanni-api-5456c9c9cb-zwbxk                        Readiness probe failed: Get "http://10.42.1.23:8000/api/health/ready": dial tcp 10.42.1.23:8000: connect: connection refused
+25m         Normal    SuccessfulCreate               replicaset/hanni-api-5456c9c9cb                       Created pod: hanni-api-5456c9c9cb-hd6vm
+25m         Normal    SuccessfulCreate               replicaset/hanni-api-5456c9c9cb                       Created pod: hanni-api-5456c9c9cb-tjfgc
+25m         Normal    Created                        pod/hanni-api-5456c9c9cb-tjfgc                        Created container: api
+25m         Normal    Pulled                         pod/hanni-api-5456c9c9cb-tjfgc                        Container image "hanni-api:lab" already present on machine
+25m         Normal    Created                        pod/hanni-api-5456c9c9cb-hd6vm                        Created container: api
+25m         Normal    Pulled                         pod/hanni-api-5456c9c9cb-hd6vm                        Container image "hanni-api:lab" already present on machine
+25m         Normal    Started                        pod/hanni-api-5456c9c9cb-tjfgc                        Started container api
+25m         Normal    Started                        pod/hanni-api-5456c9c9cb-hd6vm                        Started container api
+24m         Normal    Killing                        pod/hanni-api-5456c9c9cb-tjfgc                        Stopping container api
+24m         Normal    Killing                        pod/hanni-api-5456c9c9cb-hd6vm                        Stopping container api
+24m         Normal    SuccessfulDelete               replicaset/hanni-api-5456c9c9cb                       Deleted pod: hanni-api-5456c9c9cb-hd6vm
+24m         Normal    SuccessfulDelete               replicaset/hanni-api-5456c9c9cb                       Deleted pod: hanni-api-5456c9c9cb-tjfgc
+23m         Warning   Unhealthy                      pod/hanni-api-5456c9c9cb-tjfgc                        Readiness probe failed: Get "http://10.42.0.18:8000/api/health/ready": dial tcp 10.42.0.18:8000: connect: connection refused
+23m         Warning   Unhealthy                      pod/hanni-api-5456c9c9cb-hd6vm                        Readiness probe failed: Get "http://10.42.1.24:8000/api/health/ready": dial tcp 10.42.1.24:8000: connect: connection refused
+23m         Normal    NoPods                         poddisruptionbudget/hanni-api                         No matching pods found
+22m         Normal    SuccessfulCreate               replicaset/hanni-api-5456c9c9cb                       Created pod: hanni-api-5456c9c9cb-sg8k6
+22m         Normal    SuccessfulCreate               replicaset/hanni-api-5456c9c9cb                       Created pod: hanni-api-5456c9c9cb-57s74
+22m         Normal    Started                        pod/hanni-api-5456c9c9cb-57s74                        Started container api
+22m         Normal    Started                        pod/hanni-api-5456c9c9cb-sg8k6                        Started container api
+22m         Normal    Created                        pod/hanni-api-5456c9c9cb-sg8k6                        Created container: api
+22m         Normal    Pulled                         pod/hanni-api-5456c9c9cb-sg8k6                        Container image "hanni-api:lab" already present on machine
+22m         Normal    Created                        pod/hanni-api-5456c9c9cb-57s74                        Created container: api
+22m         Normal    Pulled                         pod/hanni-api-5456c9c9cb-57s74                        Container image "hanni-api:lab" already present on machine
+21m         Normal    Created                        pod/hanni-api-5456c9c9cb-8stt8                        Created container: api
+21m         Normal    Pulled                         pod/hanni-api-5456c9c9cb-8stt8                        Container image "hanni-api:lab" already present on machine
+21m         Normal    Started                        pod/hanni-api-5456c9c9cb-8stt8                        Started container api
+21m         Normal    Killing                        pod/hanni-api-5456c9c9cb-57s74                        Stopping container api
+21m         Normal    SuccessfulCreate               replicaset/hanni-api-5456c9c9cb                       Created pod: hanni-api-5456c9c9cb-8stt8
+19m         Normal    Started                        pod/hanni-redis-5f976664cb-8tj8d                      Started container exporter
+19m         Normal    SuccessfulCreate               replicaset/hanni-redis-5f976664cb                     Created pod: hanni-redis-5f976664cb-8tj8d
+19m         Normal    Pulled                         pod/hanni-redis-5f976664cb-8tj8d                      Container image "redis:7-alpine" already present on machine
+19m         Normal    Killing                        pod/hanni-redis-5f976664cb-ccvrt                      Stopping container exporter
+19m         Normal    Created                        pod/hanni-redis-5f976664cb-8tj8d                      Created container: exporter
+19m         Normal    Pulled                         pod/hanni-redis-5f976664cb-8tj8d                      Container image "oliver006/redis_exporter:v1.69.0-alpine" already present on machine
+19m         Normal    Killing                        pod/hanni-redis-5f976664cb-ccvrt                      Stopping container redis
+19m         Normal    Started                        pod/hanni-redis-5f976664cb-8tj8d                      Started container redis
+19m         Normal    Created                        pod/hanni-redis-5f976664cb-8tj8d                      Created container: redis
+18m         Normal    Killing                        pod/hanni-postgres-0                                  Stopping container postgres
+18m         Normal    Killing                        pod/hanni-postgres-0                                  Stopping container exporter
+18m         Normal    SuccessfulCreate               statefulset/hanni-postgres                            create Pod hanni-postgres-0 in StatefulSet hanni-postgres successful
+17m         Normal    Created                        pod/hanni-postgres-0                                  Created container: postgres
+17m         Normal    Started                        pod/hanni-postgres-0                                  Started container exporter
+17m         Normal    Created                        pod/hanni-postgres-0                                  Created container: exporter
+17m         Normal    Pulled                         pod/hanni-postgres-0                                  Container image "postgres:16-alpine" already present on machine
+17m         Normal    Pulled                         pod/hanni-postgres-0                                  Container image "quay.io/prometheuscommunity/postgres-exporter:v0.17.1" already present on machine
+17m         Normal    Started                        pod/hanni-postgres-0                                  Started container postgres
+17m         Warning   Unhealthy                      pod/hanni-api-5456c9c9cb-sg8k6                        Readiness probe failed: HTTP probe failed with statuscode: 503
+17m         Warning   FailedGetResourceMetric        horizontalpodautoscaler/hanni-api                     failed to get cpu utilization: did not receive metrics for targeted pods (pods might be unready)
+17m         Warning   FailedComputeMetricsReplicas   horizontalpodautoscaler/hanni-api                     invalid metrics (1 invalid out of 1), first error is: failed to get cpu resource metric value: failed to get cpu utilization: did not receive metrics for targeted pods (pods might be unready)
+15m         Warning   NodeNotReady                   pod/hanni-postgres-0                                  Node is not ready
+15m         Warning   NodeNotReady                   pod/hanni-worker-7fbffb6b7c-fpl2t                     Node is not ready
+15m         Warning   NodeNotReady                   pod/hanni-api-5456c9c9cb-sg8k6                        Node is not ready
+15m         Warning   NodeNotReady                   pod/hanni-pgbouncer-648f8ddcc9-v2vml                  Node is not ready
+15m         Warning   Unhealthy                      pod/hanni-api-5456c9c9cb-8stt8                        Readiness probe failed: Get "http://10.42.0.20:8000/api/health/ready": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+14m         Warning   Unhealthy                      pod/hanni-api-5456c9c9cb-8stt8                        Readiness probe failed: HTTP probe failed with statuscode: 503
+14m         Normal    SandboxChanged                 pod/hanni-api-5456c9c9cb-sg8k6                        Pod sandbox changed, it will be killed and re-created.
+14m         Normal    TaintManagerEviction           pod/hanni-pgbouncer-648f8ddcc9-v2vml                  Cancelling deletion of Pod hanni/hanni-pgbouncer-648f8ddcc9-v2vml
+14m         Normal    TaintManagerEviction           pod/hanni-users-dt7w6                                 Cancelling deletion of Pod hanni/hanni-users-dt7w6
+14m         Normal    SandboxChanged                 pod/hanni-pgbouncer-648f8ddcc9-v2vml                  Pod sandbox changed, it will be killed and re-created.
+14m         Normal    TaintManagerEviction           pod/hanni-api-5456c9c9cb-sg8k6                        Cancelling deletion of Pod hanni/hanni-api-5456c9c9cb-sg8k6
+14m         Normal    TaintManagerEviction           pod/hanni-postgres-0                                  Cancelling deletion of Pod hanni/hanni-postgres-0
+14m         Normal    TaintManagerEviction           pod/hanni-worker-7fbffb6b7c-fpl2t                     Cancelling deletion of Pod hanni/hanni-worker-7fbffb6b7c-fpl2t
+14m         Normal    TaintManagerEviction           pod/hanni-migrate-zbbm6                               Cancelling deletion of Pod hanni/hanni-migrate-zbbm6
+14m         Normal    TaintManagerEviction           pod/hanni-seed-ctqxx                                  Cancelling deletion of Pod hanni/hanni-seed-ctqxx
+14m         Normal    SandboxChanged                 pod/hanni-worker-7fbffb6b7c-fpl2t                     Pod sandbox changed, it will be killed and re-created.
+14m         Normal    SandboxChanged                 pod/hanni-postgres-0                                  Pod sandbox changed, it will be killed and re-created.
+14m         Normal    Pulled                         pod/hanni-api-5456c9c9cb-sg8k6                        Container image "hanni-api:lab" already present on machine
+14m         Normal    Pulled                         pod/hanni-worker-7fbffb6b7c-fpl2t                     Container image "hanni-api:lab" already present on machine
+14m         Normal    Started                        pod/hanni-worker-7fbffb6b7c-fpl2t                     Started container worker
+14m         Normal    Created                        pod/hanni-worker-7fbffb6b7c-fpl2t                     Created container: worker
+14m         Normal    Pulled                         pod/hanni-postgres-0                                  Container image "postgres:16-alpine" already present on machine
+14m         Normal    Created                        pod/hanni-postgres-0                                  Created container: postgres
+14m         Normal    Started                        pod/hanni-postgres-0                                  Started container postgres
+14m         Normal    Pulled                         pod/hanni-postgres-0                                  Container image "quay.io/prometheuscommunity/postgres-exporter:v0.17.1" already present on machine
+14m         Normal    Created                        pod/hanni-postgres-0                                  Created container: exporter
+14m         Normal    Started                        pod/hanni-postgres-0                                  Started container exporter
+14m         Normal    Started                        pod/hanni-pgbouncer-648f8ddcc9-v2vml                  Started container pgbouncer
+14m         Normal    Created                        pod/hanni-pgbouncer-648f8ddcc9-v2vml                  Created container: pgbouncer
+14m         Normal    Pulled                         pod/hanni-pgbouncer-648f8ddcc9-v2vml                  Container image "edoburu/pgbouncer:v1.24.1-p1" already present on machine
+14m         Normal    Started                        pod/hanni-api-5456c9c9cb-sg8k6                        Started container api
+14m         Normal    Created                        pod/hanni-api-5456c9c9cb-sg8k6                        Created container: api
+14m         Warning   Unhealthy                      pod/hanni-api-5456c9c9cb-sg8k6                        Startup probe failed: Get "http://10.42.1.40:8000/api/health/live": dial tcp 10.42.1.40:8000: connect: connection refused
+14m         Warning   Unhealthy                      pod/hanni-worker-7fbffb6b7c-fpl2t                     Startup probe failed: Get "http://10.42.1.28:8000/api/health/live": dial tcp 10.42.1.28:8000: connect: connection refused
+12m         Normal    WaitForFirstConsumer           persistentvolumeclaim/hanni-backup                    waiting for first consumer to be created before binding
+9m4s        Normal    Provisioning                   persistentvolumeclaim/hanni-backup                    External provisioner is provisioning volume for claim "hanni/hanni-backup"
+9m4s        Normal    SuccessfulCreate               job/sao-luu-tay                                       Created pod: sao-luu-tay-f58dt
+9m1s        Normal    ProvisioningSucceeded          persistentvolumeclaim/hanni-backup                    Successfully provisioned volume pvc-08b5a886-67d7-4357-a434-4dbd90f81ff2
+8m59s       Normal    Pulled                         pod/sao-luu-tay-f58dt                                 Container image "postgres:16-alpine" already present on machine
+8m59s       Normal    Created                        pod/sao-luu-tay-f58dt                                 Created container: backup
+8m59s       Normal    Started                        pod/sao-luu-tay-f58dt                                 Started container backup
+8m40s       Warning   UnexpectedJob                  cronjob/hanni-backup                                  Saw a job that the controller did not create or forgot: sao-luu-tay
+8m40s       Normal    Completed                      job/sao-luu-tay                                       Job completed
+8m39s       Normal    Pulled                         pod/doc-sao-luu                                       Container image "postgres:16-alpine" already present on machine
+8m39s       Normal    Started                        pod/doc-sao-luu                                       Started container doc-sao-luu
+8m39s       Normal    Created                        pod/doc-sao-luu                                       Created container: doc-sao-luu
+8m36s       Normal    Killing                        pod/doc-sao-luu                                       Stopping container doc-sao-luu
+8m36s       Normal    Created                        pod/dem-sao-luu                                       Created container: dem-sao-luu
+8m36s       Normal    Pulled                         pod/dem-sao-luu                                       Container image "postgres:16-alpine" already present on machine
+8m36s       Normal    Started                        pod/dem-sao-luu                                       Started container dem-sao-luu
+8m34s       Normal    SuccessfulCreate               job/loi-het-cho                                       Created pod: loi-het-cho-hvfmf
+8m33s       Warning   FailedMount                    pod/loi-het-cho-hvfmf                                 MountVolume.SetUp failed for volume "scripts" : failed to sync configmap cache: timed out waiting for the condition
+8m32s       Normal    Created                        pod/loi-het-cho-hvfmf                                 Created container: backup
+8m32s       Normal    Pulled                         pod/loi-het-cho-hvfmf                                 Container image "postgres:16-alpine" already present on machine
+8m32s       Normal    Started                        pod/loi-het-cho-hvfmf                                 Started container backup
+8m27s       Warning   BackoffLimitExceeded           job/loi-het-cho                                       Job has reached the specified backoff limit
+8m23s       Normal    Pulled                         pod/loi-khong-ghi-duoc-flphh                          Container image "postgres:16-alpine" already present on machine
+8m23s       Normal    SuccessfulCreate               job/loi-khong-ghi-duoc                                Created pod: loi-khong-ghi-duoc-flphh
+8m23s       Normal    Started                        pod/loi-khong-ghi-duoc-flphh                          Started container backup
+8m23s       Normal    Created                        pod/loi-khong-ghi-duoc-flphh                          Created container: backup
+8m18s       Warning   BackoffLimitExceeded           job/loi-khong-ghi-duoc                                Job has reached the specified backoff limit
+8m16s       Normal    SuccessfulCreate               job/loi-khong-toi-csdl                                Created pod: loi-khong-toi-csdl-wxszg
+8m16s       Normal    Pulled                         pod/loi-khong-toi-csdl-wxszg                          Container image "postgres:16-alpine" already present on machine
+8m16s       Normal    Started                        pod/loi-khong-toi-csdl-wxszg                          Started container backup
+8m16s       Normal    Created                        pod/loi-khong-toi-csdl-wxszg                          Created container: backup
+7m15s       Warning   BackoffLimitExceeded           job/loi-khong-toi-csdl                                Job has reached the specified backoff limit
+7m11s       Normal    Created                        pod/dem-sao-luu                                       Created container: dem-sao-luu
+7m11s       Normal    Pulled                         pod/dem-sao-luu                                       Container image "postgres:16-alpine" already present on machine
+7m11s       Normal    Started                        pod/dem-sao-luu                                       Started container dem-sao-luu
+7m9s        Normal    SuccessfulCreate               job/sao-luu-kt3-1794226340                            Created pod: sao-luu-kt3-1794226340-ccndw
+7m9s        Normal    Started                        pod/sao-luu-kt3-1794226340-ccndw                      Started container backup
+7m9s        Normal    Created                        pod/sao-luu-kt3-1794226340-ccndw                      Created container: backup
+7m9s        Normal    Pulled                         pod/sao-luu-kt3-1794226340-ccndw                      Container image "postgres:16-alpine" already present on machine
+6m52s       Normal    Completed                      job/sao-luu-kt3-1794226340                            Job completed
+6m52s       Warning   UnexpectedJob                  cronjob/hanni-backup                                  Saw a job that the controller did not create or forgot: sao-luu-kt3-1794226340
+6m48s       Normal    Killing                        pod/hanni-api-5456c9c9cb-8stt8                        Stopping container api
+6m48s       Normal    SuccessfulDelete               replicaset/hanni-worker-7fbffb6b7c                    Deleted pod: hanni-worker-7fbffb6b7c-fpl2t
+6m48s       Normal    ScalingReplicaSet              deployment/hanni-api                                  Scaled down replica set hanni-api-5456c9c9cb to 0 from 2
+6m48s       Normal    Killing                        pod/hanni-worker-7fbffb6b7c-69fc9                     Stopping container worker
+6m48s       Normal    ScalingReplicaSet              deployment/hanni-worker                               Scaled down replica set hanni-worker-7fbffb6b7c to 0 from 2
+6m48s       Normal    SuccessfulDelete               replicaset/hanni-api-5456c9c9cb                       Deleted pod: hanni-api-5456c9c9cb-8stt8
+6m48s       Normal    SuccessfulDelete               replicaset/hanni-api-5456c9c9cb                       Deleted pod: hanni-api-5456c9c9cb-sg8k6
+6m48s       Normal    Killing                        pod/hanni-worker-7fbffb6b7c-fpl2t                     Stopping container worker
+6m48s       Normal    Killing                        pod/hanni-api-5456c9c9cb-sg8k6                        Stopping container api
+6m48s       Normal    SuccessfulDelete               replicaset/hanni-worker-7fbffb6b7c                    Deleted pod: hanni-worker-7fbffb6b7c-69fc9
+6m47s       Warning   Unhealthy                      pod/hanni-api-5456c9c9cb-sg8k6                        Readiness probe failed: HTTP probe failed with statuscode: 503
+6m47s       Normal    Pulled                         pod/doc-sao-luu                                       Container image "postgres:16-alpine" already present on machine
+6m46s       Normal    Started                        pod/doc-sao-luu                                       Started container doc-sao-luu
+6m46s       Normal    Created                        pod/doc-sao-luu                                       Created container: doc-sao-luu
+6m13s       Warning   Unhealthy                      pod/hanni-api-5456c9c9cb-8stt8                        Readiness probe failed: Get "http://10.42.0.20:8000/api/health/ready": dial tcp 10.42.0.20:8000: connect: connection refused
+6m12s       Warning   Unhealthy                      pod/hanni-api-5456c9c9cb-sg8k6                        Readiness probe failed: Get "http://10.42.1.40:8000/api/health/ready": dial tcp 10.42.1.40:8000: connect: connection refused
+6m9s        Normal    SuccessfulCreate               replicaset/hanni-worker-7fbffb6b7c                    Created pod: hanni-worker-7fbffb6b7c-gxvkh
+6m9s        Normal    SuccessfulCreate               replicaset/hanni-api-5456c9c9cb                       Created pod: hanni-api-5456c9c9cb-5xzh5
+6m9s        Normal    SuccessfulCreate               replicaset/hanni-worker-7fbffb6b7c                    Created pod: hanni-worker-7fbffb6b7c-fcm85
+6m9s        Normal    ScalingReplicaSet              deployment/hanni-worker                               Scaled up replica set hanni-worker-7fbffb6b7c to 2 from 0
+6m9s        Normal    ScalingReplicaSet              deployment/hanni-api                                  Scaled up replica set hanni-api-5456c9c9cb to 2 from 0
+6m9s        Normal    SuccessfulCreate               replicaset/hanni-api-5456c9c9cb                       Created pod: hanni-api-5456c9c9cb-b9sw4
+6m8s        Normal    Created                        pod/hanni-api-5456c9c9cb-b9sw4                        Created container: api
+6m8s        Normal    Started                        pod/hanni-worker-7fbffb6b7c-gxvkh                     Started container worker
+6m8s        Normal    Pulled                         pod/hanni-worker-7fbffb6b7c-gxvkh                     Container image "hanni-api:lab" already present on machine
+6m8s        Normal    Pulled                         pod/hanni-api-5456c9c9cb-5xzh5                        Container image "hanni-api:lab" already present on machine
+6m8s        Normal    Created                        pod/hanni-api-5456c9c9cb-5xzh5                        Created container: api
+6m8s        Normal    Started                        pod/hanni-api-5456c9c9cb-5xzh5                        Started container api
+6m8s        Normal    Created                        pod/hanni-worker-7fbffb6b7c-gxvkh                     Created container: worker
+6m8s        Normal    Started                        pod/hanni-api-5456c9c9cb-b9sw4                        Started container api
+6m8s        Normal    Started                        pod/hanni-worker-7fbffb6b7c-fcm85                     Started container worker
+6m8s        Normal    Created                        pod/hanni-worker-7fbffb6b7c-fcm85                     Created container: worker
+6m8s        Normal    Pulled                         pod/hanni-worker-7fbffb6b7c-fcm85                     Container image "hanni-api:lab" already present on machine
+6m8s        Normal    Pulled                         pod/hanni-api-5456c9c9cb-b9sw4                        Container image "hanni-api:lab" already present on machine
+6m5s        Warning   Unhealthy                      pod/hanni-worker-7fbffb6b7c-fcm85                     Startup probe failed: Get "http://10.42.0.32:8000/api/health/live": dial tcp 10.42.0.32:8000: connect: connection refused
+6m5s        Warning   Unhealthy                      pod/hanni-api-5456c9c9cb-b9sw4                        Startup probe failed: Get "http://10.42.0.31:8000/api/health/live": dial tcp 10.42.0.31:8000: connect: connection refused
+6m5s        Warning   Unhealthy                      pod/hanni-worker-7fbffb6b7c-gxvkh                     Startup probe failed: Get "http://10.42.1.43:8000/api/health/live": dial tcp 10.42.1.43:8000: connect: connection refused
+6m2s        Warning   FailedComputeMetricsReplicas   horizontalpodautoscaler/hanni-api                     invalid metrics (1 invalid out of 1), first error is: failed to get cpu resource metric value: failed to get cpu utilization: unable to get metrics for resource cpu: no metrics returned from resource metrics API
+6m2s        Warning   Unhealthy                      pod/hanni-api-5456c9c9cb-5xzh5                        Startup probe failed: Get "http://10.42.1.42:8000/api/health/live": dial tcp 10.42.1.42:8000: connect: connection refused
+5m56s       Normal    Killing                        pod/doc-sao-luu                                       Stopping container doc-sao-luu
+5m47s       Warning   FailedGetResourceMetric        horizontalpodautoscaler/hanni-api                     failed to get cpu utilization: unable to get metrics for resource cpu: no metrics returned from resource metrics API
+106s        Normal    SuccessfulDelete               statefulset/hanni-postgres                            delete Pod hanni-postgres-0 in StatefulSet hanni-postgres successful
+106s        Normal    Killing                        pod/hanni-postgres-0                                  Stopping container exporter
+106s        Normal    Killing                        pod/hanni-postgres-0                                  Stopping container postgres
+104s        Normal    Created                        pod/hanni-pgbouncer-dc768f89b-rq6cl                   Created container: pgbouncer
+104s        Normal    Pulled                         pod/hanni-pgbouncer-dc768f89b-rq6cl                   Container image "edoburu/pgbouncer:v1.24.1-p1" already present on machine
+104s        Normal    Started                        pod/hanni-pgbouncer-dc768f89b-rq6cl                   Started container pgbouncer
+104s        Normal    SuccessfulCreate               replicaset/hanni-pgbouncer-dc768f89b                  Created pod: hanni-pgbouncer-dc768f89b-rq6cl
+104s        Normal    ScalingReplicaSet              deployment/hanni-pgbouncer                            Scaled up replica set hanni-pgbouncer-dc768f89b to 1
+103s        Normal    Killing                        pod/hanni-pgbouncer-648f8ddcc9-v2vml                  Stopping container pgbouncer
+103s        Normal    SuccessfulDelete               replicaset/hanni-pgbouncer-648f8ddcc9                 Deleted pod: hanni-pgbouncer-648f8ddcc9-v2vml
+103s        Warning   Unhealthy                      pod/hanni-api-5456c9c9cb-5xzh5                        Readiness probe failed: HTTP probe failed with statuscode: 503
+103s        Warning   Unhealthy                      pod/hanni-api-5456c9c9cb-b9sw4                        Readiness probe failed: HTTP probe failed with statuscode: 503
+103s        Normal    ScalingReplicaSet              deployment/hanni-pgbouncer                            Scaled down replica set hanni-pgbouncer-648f8ddcc9 to 0 from 1
+98s         Warning   Unhealthy                      pod/hanni-pgbouncer-648f8ddcc9-v2vml                  Readiness probe failed: dial tcp 10.42.1.39:5432: connect: connection refused

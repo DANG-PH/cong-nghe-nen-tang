@@ -1,0 +1,138 @@
+import { z } from 'zod';
+
+/**
+ * Schema kiểm tra biến môi trường. App sẽ dừng ngay khi khởi động nếu thiếu/sai
+ * biến bắt buộc — tốt hơn là lỗi lắt nhắt lúc chạy.
+ */
+export const envSchema = z.object({
+  NODE_ENV: z
+    .enum(['development', 'test', 'production'])
+    .default('development'),
+  PORT: z.coerce.number().int().positive().default(8000),
+  API_PREFIX: z.string().default('/api'),
+  APP_URL: z.string().url().default('http://localhost:8000'),
+  FRONTEND_URL: z.string().url().default('http://localhost:3000'),
+  LOG_LEVEL: z
+    .enum(['trace', 'debug', 'info', 'warn', 'error'])
+    .default('info'),
+
+  DATABASE_URL: z.string().url(),
+  REDIS_URL: z.string().url(),
+
+  JWT_ACCESS_SECRET: z.string().min(16),
+  JWT_ACCESS_TTL: z.string().default('15m'),
+  JWT_REFRESH_SECRET: z.string().min(16),
+  JWT_REFRESH_TTL: z.string().default('30d'),
+  COOKIE_DOMAIN: z.string().default('localhost'),
+  COOKIE_SECURE: z
+    .enum(['true', 'false'])
+    .default('false')
+    .transform((v) => v === 'true'),
+
+  // Chỉ cần Client ID (công khai) — luồng verify id_token không dùng client secret.
+  GOOGLE_CLIENT_ID: z.string().trim().min(1),
+  // Web server client ID của Android và client ID iOS; phân tách bằng dấu phẩy.
+  GOOGLE_MOBILE_CLIENT_IDS: z.string().default(''),
+
+  MAIL_HOST: z.string().default(''),
+  MAIL_PORT: z.coerce.number().int().default(587),
+  MAIL_USER: z.string().default(''),
+  MAIL_PASSWORD: z.string().default(''),
+  MAIL_FROM: z.string().default('Hanni <no-reply@hanni.app>'),
+
+  SRS_SCHEDULER: z.enum(['sm2', 'fsrs']).default('sm2'),
+  SRS_DEFAULT_TARGET_RETENTION: z.coerce
+    .number()
+    .min(0.7)
+    .max(0.99)
+    .default(0.9),
+
+  DEFAULT_USER_TIMEZONE: z.string().default('Asia/Ho_Chi_Minh'),
+  STREAK_DAY_CUTOFF_HOUR: z.coerce.number().int().min(0).max(23).default(3),
+
+  THROTTLE_TTL: z.coerce.number().int().positive().default(60),
+  THROTTLE_LIMIT: z.coerce.number().int().positive().default(100),
+  // `ip`: như cũ, đếm theo IP trong bộ nhớ tiến trình. `user`: đã đăng nhập thì đếm theo tài khoản, bộ đếm ở
+  // Redis — cả phòng máy chung 1 IP không bị chặn oan, chạy nhiều tiến trình vẫn đếm chung 1 chỗ.
+  THROTTLE_SCOPE: z.enum(['ip', 'user']).default('ip'),
+
+  // `all`: 1 tiến trình làm cả API lẫn cron (VPS hiện tại). Chạy nhiều bản sao thì tách: nhiều `api` + đúng 1
+  // `worker`, nếu không cron chạy trùng theo số bản sao.
+  APP_ROLE: z.enum(['all', 'api', 'worker']).default('all'),
+  // Bật GET /metrics (Prometheus) và nhật ký JSON từng request. Route này không mở ra ngoài ingress.
+  METRICS_ENABLED: z
+    .enum(['true', 'false'])
+    .default('false')
+    .transform((v) => v === 'true'),
+  DB_POOL_MAX: z.coerce.number().int().positive().default(10),
+  // Bao nhiêu request chờ kết nối CSDL thì bắt đầu từ chối lượt đọc. 0 là tắt.
+  SHED_POOL_WAITING: z.coerce.number().int().min(0).default(0),
+  // Độ trễ event loop (p99, mili giây) để bắt đầu từ chối lượt đọc khi quá tải do CPU. 0 là tắt.
+  SHED_LOOP_LAG_MS: z.coerce.number().int().min(0).default(0),
+  // Bản sao đọc: để trống thì mọi truy vấn về CSDL chính. Chỉ các truy vấn chấp nhận dữ liệu cũ vài giây mới đọc ở đây.
+  DATABASE_REPLICA_URL: z.string().default(''),
+  // Chạy nhiều worker: mỗi chu kỳ cron chỉ 1 bản làm. Tắt thì mỗi tiến trình tự chạy như trên VPS.
+  CRON_LEASE: z
+    .enum(['true', 'false'])
+    .default('false')
+    .transform((v) => v === 'true'),
+  // Việc phụ sau khi nộp bài đi qua outbox, do worker làm. Tắt thì làm ngay trong request.
+  OUTBOX_ENABLED: z
+    .enum(['true', 'false'])
+    .default('false')
+    .transform((v) => v === 'true'),
+
+  // Học liệu: danh sách ở tệp JSON, tệp do Nginx phục vụ qua liên kết có chữ ký. Để trống thì GET /resources trả rỗng.
+  /** Đằng trước API là ai: VPS là Nginx cùng máy (loopback), k8s là ingress trong dải IP của pod. */
+  TRUST_PROXY: z.string().default('loopback'),
+  RESOURCES_MANIFEST: z.string().default(''),
+  RESOURCE_BASE_URL: z.string().default(''),
+  RESOURCE_LINK_SECRET: z.string().default(''),
+  RESOURCE_LINK_TTL_SEC: z.coerce.number().int().positive().default(600),
+
+  AUDIO_BASE_URL: z.string().default(''),
+
+  // Thông báo đẩy (Web Push) — để trống thì PushService tự báo lỗi rõ ràng
+  // khi gọi, không chặn app khởi động.
+  VAPID_PUBLIC_KEY: z.string().default(''),
+  VAPID_PRIVATE_KEY: z.string().default(''),
+  VAPID_SUBJECT: z.string().default('mailto:support@hanni.app'),
+
+  SEED_RESET: z
+    .enum(['true', 'false'])
+    .default('false')
+    .transform((v) => v === 'true'),
+
+  // Trợ lý AI (RAG) — để trống thì AssistantService tự báo "chưa bật",
+  // không chặn app khởi động.
+  GEMINI_API_KEY: z.string().default(''),
+  AI_SYSTEM_PROMPT: z.string().default(''),
+
+  // Bán Premium qua payOS (A2A, tiền về thẳng tài khoản ngân hàng, không qua ví
+  // trung gian) — để trống thì PaymentsService tự báo lỗi rõ ràng khi gọi,
+  // không chặn app khởi động (giống GEMINI_API_KEY/VAPID ở trên).
+  PAYOS_CLIENT_ID: z.string().default(''),
+  PAYOS_API_KEY: z.string().default(''),
+  PAYOS_CHECKSUM_KEY: z.string().default(''),
+
+  // Cổng MoMo (ví MoMo / thẻ ATM / thẻ quốc tế) — để trống thì không hiện lựa chọn MoMo. MOMO_API_URL mặc định là
+  // SANDBOX của MoMo (tiền ảo): trên production, đơn sandbox chạy trọn luồng nhưng KHÔNG cộng Premium thật (xem
+  // MomoService). Có tài khoản MoMo Business thật thì đổi sang https://payment.momo.vn + khoá thật.
+  MOMO_PARTNER_CODE: z.string().default(''),
+  MOMO_ACCESS_KEY: z.string().default(''),
+  MOMO_SECRET_KEY: z.string().default(''),
+  MOMO_API_URL: z.string().url().default('https://test-payment.momo.vn'),
+});
+
+export type Env = z.infer<typeof envSchema>;
+
+export function validateEnv(config: Record<string, unknown>): Env {
+  const parsed = envSchema.safeParse(config);
+  if (!parsed.success) {
+    const issues = parsed.error.issues
+      .map((i) => `  - ${i.path.join('.')}: ${i.message}`)
+      .join('\n');
+    throw new Error(`Biến môi trường không hợp lệ:\n${issues}`);
+  }
+  return parsed.data;
+}

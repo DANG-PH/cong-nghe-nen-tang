@@ -1,0 +1,32 @@
+KT1 lúc 2026-11-09 11:48:20 +0000, máy khách: curl 8.5.0
+OK    200 461 byte video-mau/540p/index.m3u8
+OK    200 1538780 byte video-mau/540p/seg-000.ts
+OK    200 1563408 byte video-mau/540p/seg-001.ts
+OK    200 1585404 byte video-mau/540p/seg-002.ts
+OK    200 1584276 byte video-mau/540p/seg-003.ts
+OK    200 1575628 byte video-mau/540p/seg-004.ts
+OK    200 1585592 byte video-mau/540p/seg-005.ts
+OK    200 1585780 byte video-mau/540p/seg-006.ts
+OK    200 1574688 byte video-mau/540p/seg-007.ts
+OK    200 1586720 byte video-mau/540p/seg-008.ts
+OK    200 1585216 byte video-mau/540p/seg-009.ts
+OK    200 1585404 byte video-mau/540p/seg-010.ts
+OK    200 45496 byte video-mau/540p/seg-011.ts
+OK    200 461 byte video-mau/720p/index.m3u8
+OK    200 2303752 byte video-mau/720p/seg-000.ts
+OK    200 2340788 byte video-mau/720p/seg-001.ts
+OK    200 2363348 byte video-mau/720p/seg-002.ts
+OK    200 2361844 byte video-mau/720p/seg-003.ts
+OK    200 2353572 byte video-mau/720p/seg-004.ts
+OK    200 2362972 byte video-mau/720p/seg-005.ts
+OK    200 2363348 byte video-mau/720p/seg-006.ts
+OK    200 2352068 byte video-mau/720p/seg-007.ts
+OK    200 2364476 byte video-mau/720p/seg-008.ts
+OK    200 2362972 byte video-mau/720p/seg-009.ts
+OK    200 2362784 byte video-mau/720p/seg-010.ts
+OK    200 47564 byte video-mau/720p/seg-011.ts
+OK    200 24981457 byte video-mau/bai-giang-720p.mp4
+OK    200 168 byte video-mau/master.m3u8
+OK    200 419706 byte bang-phien-am/bang-phien-am.pdf
+OK    200 436392 byte nghe-mau/doan-nghe.mp3
+Tổng: 30 tệp đúng, 0 tệp sai, 69174525 byte, 1.3 giây

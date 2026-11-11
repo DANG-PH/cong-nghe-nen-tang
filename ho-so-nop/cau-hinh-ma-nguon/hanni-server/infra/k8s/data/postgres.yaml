@@ -1,0 +1,163 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hanni-postgres-init
+data:
+  10-role.sql: |
+    -- PgBouncer bỏ qua tham số options lúc kết nối nên múi giờ phải đặt ở vai trò, không đặt ở phía app.
+    ALTER ROLE hanni SET timezone = 'UTC';
+    CREATE EXTENSION IF NOT EXISTS pg_stat_statements;
+  20-replication.sh: |
+    #!/bin/sh
+    # Vai trò riêng chỉ để sao chép, và slot giữ WAL cho bản sao. Dòng pg_hba có hiệu lực khi Postgres khởi động thật.
+    set -e
+    psql -v ON_ERROR_STOP=1 -U "$POSTGRES_USER" -d "$POSTGRES_DB" \
+      -c "CREATE ROLE replicator WITH REPLICATION LOGIN PASSWORD '$REPLICATION_PASSWORD'" \
+      -c "SELECT pg_create_physical_replication_slot('hanni_replica')"
+    echo 'host replication replicator all scram-sha-256' >> "$PGDATA/pg_hba.conf"
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: hanni-postgres
+  labels:
+    app: hanni-postgres
+spec:
+  serviceName: hanni-postgres
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hanni-postgres
+  template:
+    metadata:
+      labels:
+        app: hanni-postgres
+        tier: data
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "9187"
+    spec:
+      terminationGracePeriodSeconds: 60
+      containers:
+        - name: postgres
+          image: postgres:16-alpine
+          args:
+            - -c
+            - max_connections=60
+            - -c
+            - shared_buffers=128MB
+            - -c
+            - shared_preload_libraries=pg_stat_statements
+            - -c
+            - log_min_duration_statement=500
+            # WAL lưu ra ngoài để khôi phục theo thời điểm. Tối đa 60 giây lại đóng 1 đoạn, đó là RPO.
+            - -c
+            - archive_mode=on
+            - -c
+            # Phải chạy lại được: đoạn đã lưu mà trùng nội dung thì coi là xong, không thì Postgres kẹt vĩnh viễn ở đoạn đó.
+            # Ghi tệp tạm rồi đổi tên để chết giữa chừng không để lại đoạn dở dang.
+            - archive_command=if test -f /wal-archive/%f; then cmp -s %p /wal-archive/%f; else cp %p /wal-archive/%f.tmp && mv /wal-archive/%f.tmp /wal-archive/%f; fi
+            - -c
+            - archive_timeout=60
+            - -c
+            - max_slot_wal_keep_size=512MB
+          ports:
+            - name: postgres
+              containerPort: 5432
+          env:
+            - name: POSTGRES_USER
+              value: hanni
+            - name: POSTGRES_DB
+              value: hanni
+            - name: POSTGRES_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: hanni-secrets
+                  key: POSTGRES_PASSWORD
+            - name: REPLICATION_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: hanni-secrets
+                  key: REPLICATION_PASSWORD
+            - name: PGDATA
+              value: /var/lib/postgresql/data/pgdata
+          volumeMounts:
+            - name: data
+              mountPath: /var/lib/postgresql/data
+            - name: wal-archive
+              mountPath: /wal-archive
+            - name: init
+              mountPath: /docker-entrypoint-initdb.d
+              readOnly: true
+          resources:
+            requests:
+              cpu: 250m
+              memory: 256Mi
+            limits:
+              cpu: "1"
+              memory: 512Mi
+          readinessProbe:
+            exec:
+              command: [pg_isready, -U, hanni, -d, hanni]
+            periodSeconds: 5
+          livenessProbe:
+            exec:
+              command: [pg_isready, -U, hanni, -d, hanni]
+            periodSeconds: 15
+            initialDelaySeconds: 30
+        - name: exporter
+          image: quay.io/prometheuscommunity/postgres-exporter:v0.17.1
+          ports:
+            - name: metrics
+              containerPort: 9187
+          env:
+            - name: DATA_SOURCE_URI
+              value: 127.0.0.1:5432/hanni?sslmode=disable
+            - name: DATA_SOURCE_USER
+              value: hanni
+            - name: DATA_SOURCE_PASS
+              valueFrom:
+                secretKeyRef:
+                  name: hanni-secrets
+                  key: POSTGRES_PASSWORD
+          resources:
+            requests:
+              cpu: 10m
+              memory: 24Mi
+            limits:
+              cpu: 100m
+              memory: 64Mi
+      volumes:
+        - name: init
+          configMap:
+            name: hanni-postgres-init
+  volumeClaimTemplates:
+    - metadata:
+        name: data
+      spec:
+        accessModes: [ReadWriteOnce]
+        resources:
+          requests:
+            storage: 2Gi
+    - metadata:
+        name: wal-archive
+      spec:
+        accessModes: [ReadWriteOnce]
+        resources:
+          requests:
+            storage: 2Gi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: hanni-postgres
+  labels:
+    app: hanni-postgres
+spec:
+  clusterIP: None
+  selector:
+    app: hanni-postgres
+  ports:
+    - name: postgres
+      port: 5432
+      targetPort: postgres

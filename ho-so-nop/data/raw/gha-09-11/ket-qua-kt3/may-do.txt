@@ -1,0 +1,5 @@
+Thời điểm: 2026-11-09 11:48:19 +0000
+Commit: f4e29d4
+Máy: GitHub Actions Ubuntu 24.04.5 LTS, AMD EPYC 9V74 80-Core Processor, 4 luồng, 15983 MB RAM
+Docker: 28.0.4
+k6 chạy chung máy với hệ thống, đi qua loopback tới ingress Traefik

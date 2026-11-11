@@ -1,0 +1,28 @@
+24m         Normal    ScalingReplicaSet              deployment/hanni-api                                  Scaled up replica set hanni-api-fdcb48d88 to 1
+24m         Normal    ScalingReplicaSet              deployment/hanni-pgbouncer                            Scaled up replica set hanni-pgbouncer-648f8ddcc9 to 1
+24m         Normal    ScalingReplicaSet              deployment/hanni-pgbouncer-ro                         Scaled up replica set hanni-pgbouncer-ro-86c56d4454 to 1
+24m         Normal    ScalingReplicaSet              deployment/hanni-media                                Scaled up replica set hanni-media-576b44c9c4 to 1
+24m         Normal    ScalingReplicaSet              deployment/hanni-redis                                Scaled up replica set hanni-redis-5f976664cb to 1
+24m         Normal    ScalingReplicaSet              deployment/hanni-worker                               Scaled up replica set hanni-worker-567b6c9597 to 2
+24m         Normal    ScalingReplicaSet              deployment/hanni-api                                  Scaled up replica set hanni-api-fdcb48d88 to 2 from 1
+24m         Normal    SuccessfulRescale              horizontalpodautoscaler/hanni-api                     New size: 2; reason: Current number of replicas below Spec.MinReplicas
+23m         Normal    ScalingReplicaSet              deployment/hanni-worker                               Scaled up replica set hanni-worker-67d4ffbf96 to 1
+23m         Normal    ScalingReplicaSet              deployment/hanni-api                                  Scaled up replica set hanni-api-6f88f554fc to 1
+23m         Normal    ScalingReplicaSet              deployment/hanni-api                                  Scaled down replica set hanni-api-fdcb48d88 to 1 from 2
+23m         Normal    ScalingReplicaSet              deployment/hanni-api                                  Scaled up replica set hanni-api-6f88f554fc to 2 from 1
+23m         Normal    ScalingReplicaSet              deployment/hanni-api                                  Scaled down replica set hanni-api-fdcb48d88 to 0 from 1
+23m         Normal    ScalingReplicaSet              deployment/hanni-worker                               Scaled down replica set hanni-worker-567b6c9597 to 1 from 2
+23m         Normal    ScalingReplicaSet              deployment/hanni-worker                               Scaled up replica set hanni-worker-67d4ffbf96 to 2 from 1
+23m         Normal    ScalingReplicaSet              deployment/hanni-worker                               Scaled down replica set hanni-worker-567b6c9597 to 0 from 1
+22m         Normal    ScalingReplicaSet              deployment/hanni-api                                  Scaled up replica set hanni-api-6f88f554fc to 3 from 2
+22m         Normal    SuccessfulRescale              horizontalpodautoscaler/hanni-api                     New size: 3; reason: cpu resource utilization (percentage of request) above target
+8m44s       Normal    ScalingReplicaSet              deployment/hanni-api                                  Scaled down replica set hanni-api-6f88f554fc to 5 from 6
+8m44s       Normal    SuccessfulRescale              horizontalpodautoscaler/hanni-api                     New size: 5; reason: All metrics below target
+7m44s       Normal    SuccessfulRescale              horizontalpodautoscaler/hanni-api                     New size: 4; reason: All metrics below target
+7m44s       Normal    ScalingReplicaSet              deployment/hanni-api                                  Scaled down replica set hanni-api-6f88f554fc to 4 from 5
+6m44s       Normal    SuccessfulRescale              horizontalpodautoscaler/hanni-api                     New size: 3; reason: All metrics below target
+6m44s       Normal    ScalingReplicaSet              deployment/hanni-api                                  Scaled down replica set hanni-api-6f88f554fc to 3 from 4
+5m44s       Normal    ScalingReplicaSet              deployment/hanni-api                                  Scaled up replica set hanni-api-6f88f554fc to 5 from 3
+5m44s       Normal    SuccessfulRescale              horizontalpodautoscaler/hanni-api                     New size: 5; reason: cpu resource utilization (percentage of request) above target
+5m14s       Normal    SuccessfulRescale              horizontalpodautoscaler/hanni-api                     New size: 6; reason: cpu resource utilization (percentage of request) above target
+5m14s       Normal    ScalingReplicaSet              deployment/hanni-api                                  Scaled up replica set hanni-api-6f88f554fc to 6 from 5

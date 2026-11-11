@@ -1,0 +1,6 @@
+mức 15 lần 1: mô hình đóng dùng 9 VU
+mức 15 lần 2: mô hình đóng dùng 9 VU
+mức 15 lần 3: mô hình đóng dùng 9 VU
+mức 30 lần 1: mô hình đóng dùng 18 VU
+mức 30 lần 2: mô hình đóng dùng 18 VU
+mức 30 lần 3: mô hình đóng dùng 18 VU

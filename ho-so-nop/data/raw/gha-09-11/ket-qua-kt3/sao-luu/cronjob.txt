@@ -1,0 +1,10 @@
+NAME                    STATUS     COMPLETIONS   DURATION   AGE
+job.batch/sao-luu-tay   Complete   1/1           24s        24s
+NAME                         SCHEDULE     TIMEZONE   SUSPEND   ACTIVE   LAST SCHEDULE   AGE
+cronjob.batch/hanni-backup   0 19 * * *   <none>     False     0        <none>          23m
+
+NAME                      STATUS     COMPLETIONS   DURATION   AGE
+job.batch/hanni-migrate   Complete   1/1           6s         23m
+job.batch/hanni-seed      Complete   1/1           10s        23m
+job.batch/hanni-users     Complete   1/1           8s         23m
+job.batch/sao-luu-tay     Complete   1/1           24s        24s

@@ -1,0 +1,76 @@
+▲ Next.js 16.3.4 (Turbopack)
+✓ Running next.config.ts took 32ms
+⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 9.7s
+  Running TypeScript ...
+  Finished TypeScript in 11.5s ...
+  Collecting page data using 3 workers ...
+  Generating static pages using 3 workers (0/44) ...
+  Generating static pages using 3 workers (11/44) 
+  Generating static pages using 3 workers (22/44) 
+  Generating static pages using 3 workers (33/44) 
+✓ Generating static pages using 3 workers (44/44) in 1562ms
+  Finalizing page optimization ...
+
+Route (app)                       Revalidate  Expire
+┌ ○ /
+├ ○ /_not-found
+├ ○ /account
+├ ○ /achievements
+├ ○ /auth/verify-email
+├ ƒ /bai-doc/[lessonId]
+├ ƒ /bai-hoc/[lessonId]
+├ ○ /bat-dau
+├ ○ /chinh-sach-bao-mat
+├ ○ /dieu-khoan
+├ ○ /forgot-password
+├ ○ /gioi-thieu                           1d      1y
+├ ○ /hoc-lieu
+├ ○ /hop-tac                              1d      1y
+├ ○ /hsk                                  1d      1y
+├ ○ /install
+├ ○ /kiem-tra-trinh-do
+├ ○ /leaderboard
+├ ○ /learn
+├ ƒ /learn/[lessonId]
+├ ○ /listening
+├ ○ /login
+├ ○ /lop-hoc
+├ ƒ /lop-hoc/[id]
+├ ƒ /lop/[code]
+├ ○ /luyen-tap
+├ ○ /manifest.webmanifest
+├ ○ /minigame
+├ ƒ /ngu-phap
+├ ● /ngu-phap/[slug]
+├ ○ /nguon-du-lieu
+├ ○ /onboarding
+├ ○ /phien-am                             1d      1y
+├ ○ /progress
+├ ○ /pronunciation
+├ ○ /register
+├ ○ /reset-password
+├ ○ /robots.txt
+├ ○ /roleplay
+├ ○ /settings
+├ ○ /sitemap.xml                          1d      1y
+├ ○ /study
+├ ○ /thi-thu-hsk                          1h      1y
+├ ● /thi-thu-hsk/[slug]
+├ ● /thi-thu-hsk/dang-bai/[slug]
+├ ○ /tu-da-biet                           1d      1y
+├ ƒ /tu-dien
+├ ● /tu-dien/[slug]
+├ ○ /tu-dien/quet
+├ ƒ /u/[id]
+├ ○ /watch
+├ ƒ /watch/[id]
+└ ○ /writing
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+

@@ -1,0 +1,10 @@
+Tạo bản sao vật lý
+NOTICE:  all required WAL segments have been archived
+NOTICE:  table "du_lieu_quan_trong" does not exist, skipping
+DROP TABLE
+SELECT 1000
+Lỡ tay xoá lúc sau 2026-11-09 12:16:45+00
+TRUNCATE TABLE
+Trên CSDL đang chạy còn: 0 dòng
+Sau khôi phục: 1000 dòng, mất 6 giây
+DROP TABLE

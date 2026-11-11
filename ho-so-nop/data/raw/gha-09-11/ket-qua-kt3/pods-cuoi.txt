@@ -1,0 +1,15 @@
+NAME                                  READY   STATUS      RESTARTS   AGE    IP           NODE         NOMINATED NODE   READINESS GATES
+hanni-api-5456c9c9cb-5xzh5            1/1     Running     0          6m8s   10.42.1.42   k3s-agent    <none>           <none>
+hanni-api-5456c9c9cb-b9sw4            1/1     Running     0          6m8s   10.42.0.31   k3s-server   <none>           <none>
+hanni-media-576b44c9c4-phhj6          1/1     Running     0          32m    10.42.0.8    k3s-server   <none>           <none>
+hanni-migrate-zbbm6                   0/1     Completed   0          32m    <none>       k3s-agent    <none>           <none>
+hanni-pgbouncer-dc768f89b-rq6cl       1/1     Running     0          103s   10.42.1.44   k3s-agent    <none>           <none>
+hanni-pgbouncer-ro-86c56d4454-nkvhx   1/1     Running     0          32m    10.42.0.10   k3s-server   <none>           <none>
+hanni-postgres-replica-0              2/2     Running     0          32m    10.42.0.13   k3s-server   <none>           <none>
+hanni-redis-5f976664cb-8tj8d          2/2     Running     0          19m    10.42.0.21   k3s-server   <none>           <none>
+hanni-seed-ctqxx                      0/1     Completed   0          31m    <none>       k3s-agent    <none>           <none>
+hanni-users-dt7w6                     0/1     Completed   0          31m    <none>       k3s-agent    <none>           <none>
+hanni-worker-7fbffb6b7c-fcm85         1/1     Running     0          6m8s   10.42.0.32   k3s-server   <none>           <none>
+hanni-worker-7fbffb6b7c-gxvkh         1/1     Running     0          6m8s   10.42.1.43   k3s-agent    <none>           <none>
+sao-luu-kt3-1794226340-ccndw          0/1     Completed   0          7m8s   10.42.0.29   k3s-server   <none>           <none>
+sao-luu-tay-f58dt                     0/1     Completed   0          9m3s   10.42.0.23   k3s-server   <none>           <none>

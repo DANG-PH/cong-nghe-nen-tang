@@ -1,0 +1,343 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+     execution: local
+        script: /k6/kb1-tu-hoc.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 400 max VUs, 5m30s max duration (incl. graceful stop):
+              * tu_hoc: 36.00 iterations/s for 5m0s (maxVUs: 180-400, gracefulStop: 30s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     ✓ lộ trình 200
+     ✓ chuỗi ngày 200
+     ✓ phiên học 200
+     ✓ tra từ 200
+     ✓ từ hôm nay 200
+
+     checks.........................: 100.00% 54005 out of 54005
+     data_received..................: 323 MB  1.1 MB/s
+     data_sent......................: 22 MB   72 kB/s
+     http_req_blocked...............: avg=6.33µs   min=1.23µs  med=4.28µs   max=5.37ms   p(90)=6.17µs   p(95)=7.15µs  p(99)=24.68µs
+     http_req_connecting............: avg=1.11µs   min=0s      med=0s       max=5.32ms   p(90)=0s       p(95)=0s      p(99)=0s     
+     http_req_duration..............: avg=16.49ms  min=4.3ms   med=9.71ms   max=381.5ms  p(90)=32.45ms  p(95)=43.56ms p(99)=81.42ms
+       { expected_response:true }...: avg=16.49ms  min=4.3ms   med=9.71ms   max=381.5ms  p(90)=32.45ms  p(95)=43.56ms p(99)=81.42ms
+     ✓ { kind:read }................: avg=16.49ms  min=4.32ms  med=9.71ms   max=381.5ms  p(90)=32.45ms  p(95)=43.56ms p(99)=81.42ms
+     ✓ { kind:write }...............: avg=0s       min=0s      med=0s       max=0s       p(90)=0s       p(95)=0s      p(99)=0s     
+   ✓ http_req_failed................: 0.00%   0 out of 54006
+     http_req_receiving.............: avg=247.54µs min=16.88µs med=77.99µs  max=82.5ms   p(90)=393.93µs p(95)=768.2µs p(99)=2.83ms 
+     http_req_sending...............: avg=18.59µs  min=3.86µs  med=14.44µs  max=2.5ms    p(90)=24.13µs  p(95)=33.29µs p(99)=90.11µs
+     http_req_tls_handshaking.......: avg=0s       min=0s      med=0s       max=0s       p(90)=0s       p(95)=0s      p(99)=0s     
+     http_req_waiting...............: avg=16.23ms  min=4.14ms  med=9.51ms   max=381.45ms p(90)=32.01ms  p(95)=42.91ms p(99)=80.44ms
+     http_reqs......................: 54006   179.560215/s
+     iteration_duration.............: avg=582.55ms min=49.63ms med=580.64ms max=1.43s    p(90)=982.31ms p(95)=1.03s   p(99)=1.1s   
+     iterations.....................: 10801   35.911378/s
+     vus............................: 22      min=14             max=32 
+     vus_max........................: 180     min=180            max=180
+
+
+tu_hoc ✓ [ 100% ] 000/180 VUs  5m0s  36.00 iters/s

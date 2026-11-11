@@ -1,0 +1,8 @@
+Độ trễ sao chép trước khi hỏng:
+walreceiver|streaming|0
+Lượt thi trên leader: 1953
+12:17:44 tắt leader (crash)
+12:17:45 đưa bản sao lên làm leader
+12:17:45 trỏ PgBouncer ghi sang leader mới
+Lượt thi trên leader mới: 1980 (trước khi tắt đọc được 1953; đang có tải ghi thì đếm mất bằng doi-chieu-ghi.sh)
+Thời gian từ lúc tắt tới khi trỏ xong: 3 giây

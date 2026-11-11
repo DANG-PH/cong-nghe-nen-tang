@@ -1,0 +1,44 @@
+TAP version 13
+# (node:108819) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///tmp/hanni-client/tests/hoc-lieu.test.ts is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to /tmp/hanni-client/package.json.
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: có danh sách: hiện đủ học liệu kèm loại và dung lượng
+ok 1 - có danh sách: hiện đủ học liệu kèm loại và dung lượng
+  ---
+  duration_ms: 974.184044
+  type: 'test'
+  ...
+# Subtest: danh sách trống: báo chưa có học liệu thay vì để trang rỗng
+ok 2 - danh sách trống: báo chưa có học liệu thay vì để trang rỗng
+  ---
+  duration_ms: 827.38122
+  type: 'test'
+  ...
+# Subtest: API lỗi: hiện nút thử lại, bấm vào thì tải được
+ok 3 - API lỗi: hiện nút thử lại, bấm vào thì tải được
+  ---
+  duration_ms: 15851.1811
+  type: 'test'
+  ...
+# Subtest: khách gặp học liệu cần đăng nhập: được mời đăng nhập, không gọi API xin liên kết
+ok 4 - khách gặp học liệu cần đăng nhập: được mời đăng nhập, không gọi API xin liên kết
+  ---
+  duration_ms: 625.464191
+  type: 'test'
+  ...
+# Subtest: không xin được liên kết: báo lỗi ngay trên thẻ, trang không vỡ
+ok 5 - không xin được liên kết: báo lỗi ngay trên thẻ, trang không vỡ
+  ---
+  duration_ms: 905.74174
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 20016.57089

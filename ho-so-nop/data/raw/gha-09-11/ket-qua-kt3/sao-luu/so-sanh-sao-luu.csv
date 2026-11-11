@@ -1,0 +1,7 @@
+lan,cach,sao_luu_giay,dung_luong_mb,khoi_phuc_giay,dong_ReviewLog_goc,dong_ReviewLog_khoi_phuc
+1,pg_dump,13.04,82,34.31,1000000,1000000
+1,pg_basebackup,4.12,556,5.8,1000000,1000000
+2,pg_dump,11.54,82,30.02,1000000,1000000
+2,pg_basebackup,3.98,556,6.76,1000000,1000000
+3,pg_dump,11.39,82,33.88,1000000,1000000
+3,pg_basebackup,6.85,556,8.14,1000000,1000000

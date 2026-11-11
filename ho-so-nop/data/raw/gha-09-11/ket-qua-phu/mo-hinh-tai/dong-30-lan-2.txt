@@ -1,0 +1,223 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+     execution: local
+        script: /k6/kb1-dong.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 18 max VUs, 3m30s max duration (incl. graceful stop):
+              * tu_hoc_dong: 18 looping VUs for 3m0s (gracefulStop: 30s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     ✓ lộ trình 200
+     ✓ chuỗi ngày 200
+     ✓ phiên học 200
+     ✓ tra từ 200
+     ✓ từ hôm nay 200
+
+     checks.........................: 100.00% 26665 out of 26665
+     data_received..................: 160 MB  882 kB/s
+     data_sent......................: 11 MB   59 kB/s
+     http_req_blocked...............: avg=7.37µs   min=1.68µs  med=4.12µs   max=8.63ms   p(90)=5.88µs   p(95)=7.08µs  p(99)=42.5µs  
+     http_req_connecting............: avg=1.49µs   min=0s      med=0s       max=4.65ms   p(90)=0s       p(95)=0s      p(99)=0s      
+     http_req_duration..............: avg=20.88ms  min=3.4ms   med=12.75ms  max=237.19ms p(90)=46.18ms  p(95)=57.29ms p(99)=97.46ms 
+       { expected_response:true }...: avg=20.88ms  min=3.4ms   med=12.75ms  max=237.19ms p(90)=46.18ms  p(95)=57.29ms p(99)=97.46ms 
+     ✓ { kind:read }................: avg=20.88ms  min=3.4ms   med=12.75ms  max=237.19ms p(90)=46.18ms  p(95)=57.29ms p(99)=97.46ms 
+     ✓ { kind:write }...............: avg=0s       min=0s      med=0s       max=0s       p(90)=0s       p(95)=0s      p(99)=0s      
+   ✓ http_req_failed................: 0.00%   0 out of 26666
+     http_req_receiving.............: avg=294.6µs  min=23.54µs med=88.4µs   max=38.24ms  p(90)=541.95µs p(95)=1.06ms  p(99)=3.05ms  
+     http_req_sending...............: avg=22.68µs  min=6.04µs  med=13.47µs  max=7.97ms   p(90)=33.55µs  p(95)=49.83µs p(99)=137.85µs
+     http_req_tls_handshaking.......: avg=0s       min=0s      med=0s       max=0s       p(90)=0s       p(95)=0s      p(99)=0s      
+     http_req_waiting...............: avg=20.56ms  min=3.11ms  med=12.48ms  max=237.1ms  p(90)=45.71ms  p(95)=56.63ms p(99)=96.98ms 
+     http_reqs......................: 26666   147.309984/s
+     iteration_duration.............: avg=608.97ms min=50.78ms med=611.28ms max=1.39s    p(90)=1s       p(95)=1.05s   p(99)=1.12s   
+     iterations.....................: 5333    29.460892/s
+     vus............................: 1       min=1              max=18
+     vus_max........................: 18      min=18             max=18
+
+

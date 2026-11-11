@@ -1,0 +1,162 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+     execution: local
+        script: /k6/kb2-video.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 400 max VUs, 2m30s max duration (incl. graceful stop):
+              * xem_video: 25.00 iterations/s for 2m0s (maxVUs: 20-400, gracefulStop: 30s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     ✓ đoạn video 200
+
+     █ setup
+
+       ✓ cấp liên kết 201
+
+     checks.........................: 100.00%    3002 out of 3002
+     data_received..................: 4.7 GB     39 MB/s
+     data_sent......................: 475 kB     4.0 kB/s
+     http_req_blocked...............: avg=6.95µs   min=2.87µs   med=4.91µs   max=364.43µs p(90)=7.17µs  p(95)=9.31µs  p(99)=36.55µs
+     http_req_connecting............: avg=887ns    min=0s       med=0s       max=225.11µs p(90)=0s      p(95)=0s      p(99)=0s     
+     http_req_duration..............: avg=6.4ms    min=3.91ms   med=6.53ms   max=20.37ms  p(90)=7.54ms  p(95)=7.85ms  p(99)=9.23ms 
+       { expected_response:true }...: avg=6.4ms    min=3.91ms   med=6.53ms   max=20.37ms  p(90)=7.54ms  p(95)=7.85ms  p(99)=9.23ms 
+     ✓ { kind:segment }.............: avg=6.39ms   min=3.91ms   med=6.53ms   max=11.89ms  p(90)=7.53ms  p(95)=7.85ms  p(99)=9.18ms 
+   ✓ http_req_failed................: 0.00%      0 out of 3002
+     http_req_receiving.............: avg=5.4ms    min=143.21µs med=5.57ms   max=10.11ms  p(90)=6.56ms  p(95)=6.83ms  p(99)=7.73ms 
+     http_req_sending...............: avg=22.98µs  min=8.95µs   med=21.49µs  max=225.14µs p(90)=30.38µs p(95)=34.59µs p(99)=54.47µs
+     http_req_tls_handshaking.......: avg=0s       min=0s       med=0s       max=0s       p(90)=0s      p(95)=0s      p(99)=0s     
+     http_req_waiting...............: avg=972.63µs min=566.96µs med=852.12µs max=20.14ms  p(90)=1.35ms  p(95)=1.7ms   p(99)=2.68ms 
+     http_reqs......................: 3002       25.010644/s
+     iteration_duration.............: avg=6.67ms   min=4.09ms   med=6.76ms   max=12.82ms  p(90)=7.91ms  p(95)=8.29ms  p(99)=9.74ms 
+     iterations.....................: 3001       25.002312/s
+     segment_bytes..................: 4731908488 39423077.198051/s
+     vus............................: 0          min=0             max=0 
+     vus_max........................: 20         min=20            max=20
+
+

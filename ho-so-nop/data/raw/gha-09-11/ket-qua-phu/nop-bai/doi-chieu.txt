@@ -1,0 +1,3 @@
+lần 1: dòng MockExamAttempt tăng 601, outbox còn chờ 0
+lần 2: dòng MockExamAttempt tăng 600, outbox còn chờ 0
+lần 3: dòng MockExamAttempt tăng 601, outbox còn chờ 0

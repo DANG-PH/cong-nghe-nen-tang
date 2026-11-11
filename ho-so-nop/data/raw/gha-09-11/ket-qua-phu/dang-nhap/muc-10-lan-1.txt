@@ -1,0 +1,117 @@
+Unable to find image 'grafana/k6:0.57.0' locally
+0.57.0: Pulling from grafana/k6
+66a3d608f3fa: Pulling fs layer
+f073781953be: Pulling fs layer
+f860ff442d92: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+4f4fb700ef54: Waiting
+f073781953be: Verifying Checksum
+f073781953be: Download complete
+66a3d608f3fa: Download complete
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+f860ff442d92: Verifying Checksum
+f860ff442d92: Download complete
+66a3d608f3fa: Pull complete
+f073781953be: Pull complete
+f860ff442d92: Pull complete
+4f4fb700ef54: Pull complete
+Digest: sha256:70af91f86cd8e142e0544a4edaf79835a80033f71974b92edd5ac36fd4442a7b
+Status: Downloaded newer image for grafana/k6:0.57.0
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+     execution: local
+        script: /k6/dang-nhap.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 400 max VUs, 1m30s max duration (incl. graceful stop):
+              * dang_nhap: 10.00 iterations/s for 1m0s (maxVUs: 50-400, gracefulStop: 30s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     ✓ đăng nhập 200
+
+     checks.........................: 100.00% 600 out of 600
+     data_received..................: 976 kB  16 kB/s
+     data_sent......................: 155 kB  2.6 kB/s
+     http_req_blocked...............: avg=26.84µs  min=4.33µs  med=6.04µs   max=757.73µs p(90)=11.12µs  p(95)=217.06µs p(99)=277.01µs
+     http_req_connecting............: avg=14.67µs  min=0s      med=0s       max=674.65µs p(90)=0s       p(95)=141.96µs p(99)=199.03µs
+     http_req_duration..............: avg=48.64ms  min=42.9ms  med=45.59ms  max=147.27ms p(90)=56.84ms  p(95)=61.9ms   p(99)=84.68ms 
+       { expected_response:true }...: avg=48.64ms  min=42.9ms  med=45.59ms  max=147.27ms p(90)=56.84ms  p(95)=61.9ms   p(99)=84.68ms 
+     ✓ { kind:login }...............: avg=48.64ms  min=42.9ms  med=45.59ms  max=147.27ms p(90)=56.84ms  p(95)=61.9ms   p(99)=84.68ms 
+   ✓ http_req_failed................: 0.00%   0 out of 600
+     http_req_receiving.............: avg=127.53µs min=76.29µs med=112.36µs max=1.08ms   p(90)=162.32µs p(95)=209.38µs p(99)=349.96µs
+     http_req_sending...............: avg=37.17µs  min=18.47µs med=32.49µs  max=1ms      p(90)=52.67µs  p(95)=65.78µs  p(99)=92.45µs 
+     http_req_tls_handshaking.......: avg=0s       min=0s      med=0s       max=0s       p(90)=0s       p(95)=0s       p(99)=0s      
+     http_req_waiting...............: avg=48.47ms  min=42.74ms med=45.44ms  max=147.06ms p(90)=56.63ms  p(95)=61.74ms  p(99)=84.48ms 
+     http_reqs......................: 600     9.99988/s
+     iteration_duration.............: avg=49.04ms  min=43.18ms med=45.92ms  max=149.14ms p(90)=57.31ms  p(95)=62.52ms  p(99)=84.99ms 
+     iterations.....................: 600     9.99988/s
+     vus............................: 0       min=0          max=1 
+     vus_max........................: 50      min=50         max=50
+
+

@@ -1,0 +1,424 @@
+Unable to find image 'grafana/k6:0.57.0' locally
+0.57.0: Pulling from grafana/k6
+66a3d608f3fa: Pulling fs layer
+f073781953be: Pulling fs layer
+f860ff442d92: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+4f4fb700ef54: Waiting
+f073781953be: Verifying Checksum
+f073781953be: Download complete
+66a3d608f3fa: Download complete
+f860ff442d92: Verifying Checksum
+f860ff442d92: Download complete
+66a3d608f3fa: Pull complete
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+f073781953be: Pull complete
+f860ff442d92: Pull complete
+4f4fb700ef54: Pull complete
+Digest: sha256:70af91f86cd8e142e0544a4edaf79835a80033f71974b92edd5ac36fd4442a7b
+Status: Downloaded newer image for grafana/k6:0.57.0
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+     execution: local
+        script: /k6/kb3-thi-thu.js
+        output: -
+
+     scenarios: (100.00%) 2 scenarios, 600 max VUs, 2m30s max duration (incl. graceful stop):
+              * mo_de: 10.00 iterations/s for 1m0s (maxVUs: 30-300, exec: openPaper, gracefulStop: 30s)
+              * nop_bai: 20.00 iterations/s for 30s (maxVUs: 60-600, exec: submit, startTime: 1m30s, gracefulStop: 30s)
+
+
+mo_de     [   1% ] 000/030 VUs  0m00.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m29.3s      
+
+mo_de     [   3% ] 000/030 VUs  0m01.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m28.3s      
+
+mo_de     [   5% ] 000/030 VUs  0m02.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m27.3s      
+
+mo_de     [   6% ] 000/030 VUs  0m03.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m26.3s      
+
+mo_de     [   8% ] 000/030 VUs  0m04.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m25.3s      
+
+mo_de     [  10% ] 000/030 VUs  0m05.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m24.3s      
+
+mo_de     [  11% ] 000/030 VUs  0m06.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m23.3s      
+
+mo_de     [  13% ] 000/030 VUs  0m07.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m22.3s      
+
+mo_de     [  15% ] 000/030 VUs  0m08.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m21.3s      
+
+mo_de     [  16% ] 000/030 VUs  0m09.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m20.3s      
+
+mo_de     [  18% ] 000/030 VUs  0m10.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m19.3s      
+
+mo_de     [  20% ] 000/030 VUs  0m11.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m18.3s      
+
+mo_de     [  21% ] 000/030 VUs  0m12.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m17.3s      
+
+mo_de     [  23% ] 000/030 VUs  0m13.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m16.3s      
+
+mo_de     [  25% ] 000/030 VUs  0m14.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m15.3s      
+
+mo_de     [  26% ] 000/030 VUs  0m15.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m14.3s      
+
+mo_de     [  28% ] 000/030 VUs  0m16.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m13.3s      
+
+mo_de     [  30% ] 000/030 VUs  0m17.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m12.3s      
+
+mo_de     [  31% ] 000/030 VUs  0m18.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m11.3s      
+
+mo_de     [  33% ] 000/030 VUs  0m19.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m10.3s      
+
+mo_de     [  35% ] 000/030 VUs  0m20.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m09.3s      
+
+mo_de     [  36% ] 000/030 VUs  0m21.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m08.3s      
+
+mo_de     [  38% ] 000/030 VUs  0m22.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m07.3s      
+
+mo_de     [  40% ] 000/030 VUs  0m23.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m06.3s      
+
+mo_de     [  41% ] 000/030 VUs  0m24.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m05.3s      
+
+mo_de     [  43% ] 000/030 VUs  0m25.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m04.3s      
+
+mo_de     [  45% ] 000/030 VUs  0m26.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m03.3s      
+
+mo_de     [  46% ] 000/030 VUs  0m27.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m02.3s      
+
+mo_de     [  48% ] 000/030 VUs  0m28.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m01.3s      
+
+mo_de     [  50% ] 000/030 VUs  0m29.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      1m00.3s      
+
+mo_de     [  51% ] 000/030 VUs  0m30.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m59.3s      
+
+mo_de     [  53% ] 000/030 VUs  0m31.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m58.3s      
+
+mo_de     [  55% ] 000/030 VUs  0m32.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m57.3s      
+
+mo_de     [  56% ] 000/030 VUs  0m33.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m56.3s      
+
+mo_de     [  58% ] 000/030 VUs  0m34.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m55.3s      
+
+mo_de     [  60% ] 000/030 VUs  0m35.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m54.3s      
+
+mo_de     [  61% ] 000/030 VUs  0m36.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m53.3s      
+
+mo_de     [  63% ] 000/030 VUs  0m37.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m52.3s      
+
+mo_de     [  65% ] 000/030 VUs  0m38.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m51.3s      
+
+mo_de     [  66% ] 000/030 VUs  0m39.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m50.3s      
+
+mo_de     [  68% ] 000/030 VUs  0m40.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m49.3s      
+
+mo_de     [  70% ] 000/030 VUs  0m41.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m48.3s      
+
+mo_de     [  71% ] 000/030 VUs  0m42.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m47.3s      
+
+mo_de     [  73% ] 000/030 VUs  0m43.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m46.3s      
+
+mo_de     [  75% ] 000/030 VUs  0m44.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m45.3s      
+
+mo_de     [  76% ] 000/030 VUs  0m45.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m44.3s      
+
+mo_de     [  78% ] 000/030 VUs  0m46.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m43.3s      
+
+mo_de     [  80% ] 000/030 VUs  0m47.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m42.3s      
+
+mo_de     [  81% ] 000/030 VUs  0m48.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m41.3s      
+
+mo_de     [  83% ] 000/030 VUs  0m49.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m40.3s      
+
+mo_de     [  85% ] 000/030 VUs  0m50.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m39.3s      
+
+mo_de     [  86% ] 000/030 VUs  0m51.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m38.3s      
+
+mo_de     [  88% ] 000/030 VUs  0m52.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m37.3s      
+
+mo_de     [  90% ] 000/030 VUs  0m53.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m36.3s      
+
+mo_de     [  91% ] 000/030 VUs  0m54.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m35.3s      
+
+mo_de     [  93% ] 000/030 VUs  0m55.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m34.3s      
+
+mo_de     [  95% ] 000/030 VUs  0m56.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m33.3s      
+
+mo_de     [  96% ] 000/030 VUs  0m57.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m32.3s      
+
+mo_de     [  98% ] 000/030 VUs  0m58.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m31.3s      
+
+mo_de     [ 100% ] 000/030 VUs  0m59.7s/1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m30.3s      
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m29.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m28.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m27.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m26.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m25.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m24.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m23.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m22.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m21.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m20.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m19.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m18.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m17.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m16.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m15.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m14.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m13.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m12.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m11.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m10.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m09.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m08.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m07.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m06.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m05.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m04.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m03.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m02.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m01.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai • [   0% ] waiting      0m00.3s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [   2% ] 000/060 VUs  00.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [   6% ] 000/060 VUs  01.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [   9% ] 000/060 VUs  02.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  12% ] 000/060 VUs  03.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  16% ] 000/060 VUs  04.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  19% ] 000/060 VUs  05.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  22% ] 000/060 VUs  06.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  26% ] 000/060 VUs  07.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  29% ] 000/060 VUs  08.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  32% ] 000/060 VUs  09.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  36% ] 000/060 VUs  10.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  39% ] 000/060 VUs  11.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  42% ] 000/060 VUs  12.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  46% ] 000/060 VUs  13.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  49% ] 000/060 VUs  14.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  52% ] 000/060 VUs  15.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  56% ] 000/060 VUs  16.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  59% ] 000/060 VUs  17.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  62% ] 000/060 VUs  18.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  66% ] 000/060 VUs  19.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  69% ] 000/060 VUs  20.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  72% ] 000/060 VUs  21.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  76% ] 000/060 VUs  22.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  79% ] 000/060 VUs  23.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  82% ] 000/060 VUs  24.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  86% ] 000/060 VUs  25.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  89% ] 000/060 VUs  26.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  92% ] 000/060 VUs  27.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  96% ] 000/060 VUs  28.7s/30s  20.00 iters/s
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s       10.00 iters/s
+nop_bai   [  99% ] 000/060 VUs  29.7s/30s  20.00 iters/s
+
+     ✓ mở đề 200
+     ✓ nộp bài 201
+     ✓ gửi lại 201
+     ✓ gửi lại ra đúng lượt cũ
+
+     checks.........................: 100.00% 1324 out of 1324
+     data_received..................: 22 MB   178 kB/s
+     data_sent......................: 637 kB  5.3 kB/s
+     http_req_blocked...............: avg=20.38µs  min=2.25µs  med=5.68µs  max=4.58ms   p(90)=7.99µs   p(95)=28.51µs  p(99)=233.8µs 
+     http_req_connecting............: avg=11.33µs  min=0s      med=0s      max=4.5ms    p(90)=0s       p(95)=0s       p(99)=166.87µs
+     http_req_duration..............: avg=8.62ms   min=2.13ms  med=6.36ms  max=250.55ms p(90)=11.32ms  p(95)=19.45ms  p(99)=103.93ms
+       { expected_response:true }...: avg=8.62ms   min=2.13ms  med=6.36ms  max=250.55ms p(90)=11.32ms  p(95)=19.45ms  p(99)=103.93ms
+     ✓ { kind:read }................: avg=3.46ms   min=2.13ms  med=2.87ms  max=234.62ms p(90)=3.57ms   p(95)=3.86ms   p(99)=5.1ms   
+     ✓ { kind:write }...............: avg=12.94ms  min=5.78ms  med=7.36ms  max=188.09ms p(90)=18.11ms  p(95)=32.13ms  p(99)=138.42ms
+   ✓ http_req_failed................: 0.00%   0 out of 1265
+     http_req_receiving.............: avg=185.85µs min=34.42µs med=136.1µs max=2.76ms   p(90)=338.82µs p(95)=448.52µs p(99)=878.41µs
+     http_req_sending...............: avg=27.87µs  min=10.79µs med=24.93µs max=162.3µs  p(90)=35.91µs  p(95)=50.34µs  p(99)=83.54µs 
+     http_req_tls_handshaking.......: avg=0s       min=0s      med=0s      max=0s       p(90)=0s       p(95)=0s       p(99)=0s      
+     http_req_waiting...............: avg=8.4ms    min=1.98ms  med=6.17ms  max=250.29ms p(90)=11ms     p(95)=19.05ms  p(99)=102.95ms
+     http_reqs......................: 1265    10.517626/s
+     iteration_duration.............: avg=9.28ms   min=2.42ms  med=6.55ms  max=258.39ms p(90)=15.09ms  p(95)=20.98ms  p(99)=91.03ms 
+     iterations.....................: 1202    9.993823/s
+     vus............................: 0       min=0            max=0 
+     vus_max........................: 60      min=60           max=60
+
+
+mo_de   ✓ [ 100% ] 000/030 VUs  1m0s  10.00 iters/s
+nop_bai ✓ [ 100% ] 000/060 VUs  30s   20.00 iters/s

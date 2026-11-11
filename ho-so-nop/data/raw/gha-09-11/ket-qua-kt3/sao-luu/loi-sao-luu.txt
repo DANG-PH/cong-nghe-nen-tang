@@ -1,0 +1,7 @@
+Thử lỗi sao lưu lúc 2026-11-09 12:10:54 +0000
+Số bản sao lưu trước khi thử: 1
+loi-het-cho | job thất-bại | log: 2026-11-09T12:11:00Z bắt đầu sao lưu CSDL pg_dump: error: could not write to output file: No space left on device  | ĐẠT
+loi-khong-ghi-duoc | job thất-bại | log: 2026-11-09T12:11:09Z bắt đầu sao lưu CSDL pg_dump: error: could not open output file "/backup/hanni-20261109-121107.dump.tmp": Read-only file system  | ĐẠT
+loi-khong-toi-csdl | job thất-bại | log: 2026-11-09T12:12:12Z không kết nối được CSDL  | ĐẠT
+Số bản sao lưu sau khi thử: 1
+Bản sao lưu cũ không bị ảnh hưởng: ĐẠT

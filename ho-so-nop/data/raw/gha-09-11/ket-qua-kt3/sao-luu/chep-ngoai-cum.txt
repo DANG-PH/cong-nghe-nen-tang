@@ -1,0 +1,5 @@
+hanni-20261109-121031.dump: OK
+hoc-lieu-20261109-121031.tar.gz: OK
+-rw-r--r--  1 runner runner 85322641 Nov  9 12:10 hanni-20261109-121031.dump
+-rw-r--r--  1 runner runner      191 Nov  9 12:10 hanni-20261109-121031.sha256
+-rw-r--r--  1 runner runner  7775551 Nov  9 12:10 hoc-lieu-20261109-121031.tar.gz

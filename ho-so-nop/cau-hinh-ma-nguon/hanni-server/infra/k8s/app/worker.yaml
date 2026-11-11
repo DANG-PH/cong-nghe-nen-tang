@@ -1,0 +1,69 @@
+# Worker chạy việc định kỳ (nhắc học, giải đấu tuần, đối soát đơn...) và outbox. 2 bản để 1 bản chết không dừng hết việc nền:
+# CRON_LEASE cho mỗi chu kỳ chỉ 1 bản làm, outbox dùng SKIP LOCKED nên 2 bản cùng lấy việc được.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hanni-worker
+  labels:
+    app: hanni-worker
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: hanni-worker
+  template:
+    metadata:
+      labels:
+        app: hanni-worker
+        tier: backend
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "8000"
+        prometheus.io/path: /api/metrics
+    spec:
+      containers:
+        - name: worker
+          image: hanni-api:lab
+          imagePullPolicy: Never
+          ports:
+            - name: http
+              containerPort: 8000
+          envFrom:
+            - configMapRef:
+                name: hanni-env
+            - secretRef:
+                name: hanni-secrets
+          env:
+            - name: APP_ROLE
+              value: worker
+            - name: OTEL_SERVICE_NAME
+              value: hanni-worker
+            - name: NODE_OPTIONS
+              value: --require /otel/tracing.js --max-old-space-size=256
+          volumeMounts:
+            - name: resources
+              mountPath: /etc/hanni/resources
+              readOnly: true
+          resources:
+            requests:
+              cpu: 50m
+              memory: 180Mi
+            limits:
+              cpu: 500m
+              memory: 384Mi
+          startupProbe:
+            httpGet:
+              path: /api/health/live
+              port: http
+            periodSeconds: 3
+            failureThreshold: 40
+          livenessProbe:
+            httpGet:
+              path: /api/health/live
+              port: http
+            periodSeconds: 15
+            timeoutSeconds: 5
+      volumes:
+        - name: resources
+          configMap:
+            name: hanni-resources

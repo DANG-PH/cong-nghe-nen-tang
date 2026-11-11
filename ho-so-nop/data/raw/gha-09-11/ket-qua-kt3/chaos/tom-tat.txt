@@ -1,0 +1,4 @@
+api: 95 lượt, 0 lượt lỗi, gián đoạn dài nhất 0 giây
+redis: 95 lượt, 0 lượt lỗi, gián đoạn dài nhất 0 giây
+db: 95 lượt, 16 lượt lỗi, gián đoạn dài nhất 16 giây
+node: 204 lượt, 94 lượt lỗi, gián đoạn dài nhất 94 giây

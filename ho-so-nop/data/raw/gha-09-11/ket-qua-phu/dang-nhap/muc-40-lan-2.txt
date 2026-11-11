@@ -1,0 +1,97 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+     execution: local
+        script: /k6/dang-nhap.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 1600 max VUs, 1m30s max duration (incl. graceful stop):
+              * dang_nhap: 40.00 iterations/s for 1m0s (maxVUs: 200-1600, gracefulStop: 30s)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     ✓ đăng nhập 200
+
+     checks.........................: 100.00% 2401 out of 2401
+     data_received..................: 3.9 MB  65 kB/s
+     data_sent......................: 622 kB  10 kB/s
+     http_req_blocked...............: avg=46µs     min=4.1µs   med=6.66µs  max=3.62ms   p(90)=25.65µs  p(95)=271.19µs p(99)=821.27µs
+     http_req_connecting............: avg=31.43µs  min=0s      med=0s      max=3.55ms   p(90)=0s       p(95)=188.34µs p(99)=703.1µs 
+     http_req_duration..............: avg=55.95ms  min=44.39ms med=54.71ms max=165ms    p(90)=67.11ms  p(95)=71.26ms  p(99)=83.04ms 
+       { expected_response:true }...: avg=55.95ms  min=44.39ms med=54.71ms max=165ms    p(90)=67.11ms  p(95)=71.26ms  p(99)=83.04ms 
+     ✓ { kind:login }...............: avg=55.95ms  min=44.39ms med=54.71ms max=165ms    p(90)=67.11ms  p(95)=71.26ms  p(99)=83.04ms 
+   ✓ http_req_failed................: 0.00%   0 out of 2401
+     http_req_receiving.............: avg=117.72µs min=34.89µs med=96.52µs max=2.23ms   p(90)=150.53µs p(95)=214.55µs p(99)=543.75µs
+     http_req_sending...............: avg=38.49µs  min=16.62µs med=30.5µs  max=1.07ms   p(90)=58.97µs  p(95)=79.02µs  p(99)=139.96µs
+     http_req_tls_handshaking.......: avg=0s       min=0s      med=0s      max=0s       p(90)=0s       p(95)=0s       p(99)=0s      
+     http_req_waiting...............: avg=55.79ms  min=44.22ms med=54.55ms max=164.89ms p(90)=66.93ms  p(95)=71.12ms  p(99)=82.93ms 
+     http_reqs......................: 2401    39.983221/s
+     iteration_duration.............: avg=56.37ms  min=44.67ms med=55.06ms max=165.37ms p(90)=67.62ms  p(95)=71.72ms  p(99)=83.42ms 
+     iterations.....................: 2401    39.983221/s
+     vus............................: 3       min=2            max=3  
+     vus_max........................: 200     min=200          max=200
+
+

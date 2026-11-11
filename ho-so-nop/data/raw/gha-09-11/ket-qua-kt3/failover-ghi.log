@@ -1,0 +1,334 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+     execution: local
+        script: /k6/ghi-lien-tuc.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 300 max VUs, 3m0s max duration (incl. graceful stop):
+              * ghi: 30.00 iterations/s for 2m30s (maxVUs: 90-300, gracefulStop: 30s)
+
+
+ghi    [   0% ] 000/090 VUs  0m00.7s/2m30s  30.00 iters/s
+
+ghi    [   1% ] 000/090 VUs  0m01.7s/2m30s  30.00 iters/s
+
+ghi    [   2% ] 000/090 VUs  0m02.7s/2m30s  30.00 iters/s
+
+ghi    [   2% ] 001/090 VUs  0m03.7s/2m30s  30.00 iters/s
+
+ghi    [   3% ] 000/090 VUs  0m04.7s/2m30s  30.00 iters/s
+
+ghi    [   4% ] 000/090 VUs  0m05.7s/2m30s  30.00 iters/s
+
+ghi    [   4% ] 000/090 VUs  0m06.7s/2m30s  30.00 iters/s
+
+ghi    [   5% ] 000/090 VUs  0m07.7s/2m30s  30.00 iters/s
+
+ghi    [   6% ] 000/090 VUs  0m08.7s/2m30s  30.00 iters/s
+
+ghi    [   6% ] 000/090 VUs  0m09.7s/2m30s  30.00 iters/s
+
+ghi    [   7% ] 000/090 VUs  0m10.7s/2m30s  30.00 iters/s
+
+ghi    [   8% ] 000/090 VUs  0m11.7s/2m30s  30.00 iters/s
+
+ghi    [   8% ] 003/090 VUs  0m12.7s/2m30s  30.00 iters/s
+
+ghi    [   9% ] 000/090 VUs  0m13.7s/2m30s  30.00 iters/s
+
+ghi    [  10% ] 000/090 VUs  0m14.7s/2m30s  30.00 iters/s
+
+ghi    [  10% ] 001/090 VUs  0m15.7s/2m30s  30.00 iters/s
+
+ghi    [  11% ] 000/090 VUs  0m16.7s/2m30s  30.00 iters/s
+
+ghi    [  12% ] 000/090 VUs  0m17.7s/2m30s  30.00 iters/s
+
+ghi    [  12% ] 002/090 VUs  0m18.7s/2m30s  30.00 iters/s
+
+ghi    [  13% ] 000/090 VUs  0m19.7s/2m30s  30.00 iters/s
+
+ghi    [  14% ] 000/090 VUs  0m20.7s/2m30s  30.00 iters/s
+
+ghi    [  14% ] 000/090 VUs  0m21.7s/2m30s  30.00 iters/s
+
+ghi    [  15% ] 000/090 VUs  0m22.7s/2m30s  30.00 iters/s
+
+ghi    [  16% ] 000/090 VUs  0m23.7s/2m30s  30.00 iters/s
+
+ghi    [  16% ] 000/090 VUs  0m24.7s/2m30s  30.00 iters/s
+
+ghi    [  17% ] 000/090 VUs  0m25.7s/2m30s  30.00 iters/s
+
+ghi    [  18% ] 000/090 VUs  0m26.7s/2m30s  30.00 iters/s
+
+ghi    [  18% ] 000/090 VUs  0m27.7s/2m30s  30.00 iters/s
+
+ghi    [  19% ] 000/090 VUs  0m28.7s/2m30s  30.00 iters/s
+
+ghi    [  20% ] 000/090 VUs  0m29.7s/2m30s  30.00 iters/s
+
+ghi    [  20% ] 000/090 VUs  0m30.7s/2m30s  30.00 iters/s
+
+ghi    [  21% ] 000/090 VUs  0m31.7s/2m30s  30.00 iters/s
+
+ghi    [  22% ] 000/090 VUs  0m32.7s/2m30s  30.00 iters/s
+
+ghi    [  22% ] 000/090 VUs  0m33.7s/2m30s  30.00 iters/s
+
+ghi    [  23% ] 000/090 VUs  0m34.7s/2m30s  30.00 iters/s
+
+ghi    [  24% ] 000/090 VUs  0m35.7s/2m30s  30.00 iters/s
+
+ghi    [  24% ] 000/090 VUs  0m36.7s/2m30s  30.00 iters/s
+
+ghi    [  25% ] 000/090 VUs  0m37.7s/2m30s  30.00 iters/s
+
+ghi    [  26% ] 000/090 VUs  0m38.7s/2m30s  30.00 iters/s
+
+ghi    [  26% ] 000/090 VUs  0m39.7s/2m30s  30.00 iters/s
+
+ghi    [  27% ] 000/090 VUs  0m40.7s/2m30s  30.00 iters/s
+
+ghi    [  28% ] 000/090 VUs  0m41.7s/2m30s  30.00 iters/s
+
+ghi    [  28% ] 000/090 VUs  0m42.7s/2m30s  30.00 iters/s
+
+ghi    [  29% ] 000/090 VUs  0m43.7s/2m30s  30.00 iters/s
+
+ghi    [  30% ] 000/090 VUs  0m44.7s/2m30s  30.00 iters/s
+
+ghi    [  30% ] 001/090 VUs  0m45.7s/2m30s  30.00 iters/s
+
+ghi    [  31% ] 001/090 VUs  0m46.7s/2m30s  30.00 iters/s
+
+ghi    [  32% ] 001/090 VUs  0m47.7s/2m30s  30.00 iters/s
+
+ghi    [  32% ] 001/090 VUs  0m48.7s/2m30s  30.00 iters/s
+
+ghi    [  33% ] 001/090 VUs  0m49.7s/2m30s  30.00 iters/s
+
+ghi    [  34% ] 001/090 VUs  0m50.7s/2m30s  30.00 iters/s
+
+ghi    [  34% ] 001/090 VUs  0m51.7s/2m30s  30.00 iters/s
+
+ghi    [  35% ] 001/090 VUs  0m52.7s/2m30s  30.00 iters/s
+
+ghi    [  36% ] 001/090 VUs  0m53.7s/2m30s  30.00 iters/s
+
+ghi    [  36% ] 001/090 VUs  0m54.7s/2m30s  30.00 iters/s
+
+ghi    [  37% ] 001/090 VUs  0m55.7s/2m30s  30.00 iters/s
+
+ghi    [  38% ] 000/090 VUs  0m56.7s/2m30s  30.00 iters/s
+
+ghi    [  38% ] 000/090 VUs  0m57.7s/2m30s  30.00 iters/s
+
+ghi    [  39% ] 000/090 VUs  0m58.7s/2m30s  30.00 iters/s
+
+ghi    [  40% ] 001/090 VUs  0m59.7s/2m30s  30.00 iters/s
+
+ghi    [  40% ] 000/090 VUs  1m00.7s/2m30s  30.00 iters/s
+
+ghi    [  41% ] 001/090 VUs  1m01.7s/2m30s  30.00 iters/s
+
+ghi    [  42% ] 004/090 VUs  1m02.7s/2m30s  30.00 iters/s
+
+ghi    [  42% ] 000/090 VUs  1m03.7s/2m30s  30.00 iters/s
+
+ghi    [  43% ] 000/090 VUs  1m04.7s/2m30s  30.00 iters/s
+
+ghi    [  44% ] 000/090 VUs  1m05.7s/2m30s  30.00 iters/s
+
+ghi    [  44% ] 000/090 VUs  1m06.7s/2m30s  30.00 iters/s
+
+ghi    [  45% ] 000/090 VUs  1m07.7s/2m30s  30.00 iters/s
+
+ghi    [  46% ] 000/090 VUs  1m08.7s/2m30s  30.00 iters/s
+
+ghi    [  46% ] 000/090 VUs  1m09.7s/2m30s  30.00 iters/s
+
+ghi    [  47% ] 000/090 VUs  1m10.7s/2m30s  30.00 iters/s
+
+ghi    [  48% ] 000/090 VUs  1m11.7s/2m30s  30.00 iters/s
+
+ghi    [  48% ] 000/090 VUs  1m12.7s/2m30s  30.00 iters/s
+
+ghi    [  49% ] 001/090 VUs  1m13.7s/2m30s  30.00 iters/s
+
+ghi    [  50% ] 000/090 VUs  1m14.7s/2m30s  30.00 iters/s
+
+ghi    [  50% ] 000/090 VUs  1m15.7s/2m30s  30.00 iters/s
+
+ghi    [  51% ] 000/090 VUs  1m16.7s/2m30s  30.00 iters/s
+
+ghi    [  52% ] 000/090 VUs  1m17.7s/2m30s  30.00 iters/s
+
+ghi    [  52% ] 000/090 VUs  1m18.7s/2m30s  30.00 iters/s
+
+ghi    [  53% ] 000/090 VUs  1m19.7s/2m30s  30.00 iters/s
+
+ghi    [  54% ] 000/090 VUs  1m20.7s/2m30s  30.00 iters/s
+
+ghi    [  54% ] 001/090 VUs  1m21.7s/2m30s  30.00 iters/s
+
+ghi    [  55% ] 000/090 VUs  1m22.7s/2m30s  30.00 iters/s
+
+ghi    [  56% ] 000/090 VUs  1m23.7s/2m30s  30.00 iters/s
+
+ghi    [  56% ] 000/090 VUs  1m24.7s/2m30s  30.00 iters/s
+
+ghi    [  57% ] 000/090 VUs  1m25.7s/2m30s  30.00 iters/s
+
+ghi    [  58% ] 000/090 VUs  1m26.7s/2m30s  30.00 iters/s
+
+ghi    [  58% ] 001/090 VUs  1m27.7s/2m30s  30.00 iters/s
+
+ghi    [  59% ] 000/090 VUs  1m28.7s/2m30s  30.00 iters/s
+
+ghi    [  60% ] 000/090 VUs  1m29.7s/2m30s  30.00 iters/s
+
+ghi    [  60% ] 000/090 VUs  1m30.7s/2m30s  30.00 iters/s
+
+ghi    [  61% ] 000/090 VUs  1m31.7s/2m30s  30.00 iters/s
+
+ghi    [  62% ] 000/090 VUs  1m32.7s/2m30s  30.00 iters/s
+
+ghi    [  62% ] 000/090 VUs  1m33.7s/2m30s  30.00 iters/s
+
+ghi    [  63% ] 000/090 VUs  1m34.7s/2m30s  30.00 iters/s
+
+ghi    [  64% ] 001/090 VUs  1m35.7s/2m30s  30.00 iters/s
+
+ghi    [  64% ] 000/090 VUs  1m36.7s/2m30s  30.00 iters/s
+
+ghi    [  65% ] 000/090 VUs  1m37.7s/2m30s  30.00 iters/s
+
+ghi    [  66% ] 000/090 VUs  1m38.7s/2m30s  30.00 iters/s
+
+ghi    [  66% ] 000/090 VUs  1m39.7s/2m30s  30.00 iters/s
+
+ghi    [  67% ] 000/090 VUs  1m40.7s/2m30s  30.00 iters/s
+
+ghi    [  68% ] 000/090 VUs  1m41.7s/2m30s  30.00 iters/s
+
+ghi    [  68% ] 000/090 VUs  1m42.7s/2m30s  30.00 iters/s
+
+ghi    [  69% ] 000/090 VUs  1m43.7s/2m30s  30.00 iters/s
+
+ghi    [  70% ] 000/090 VUs  1m44.7s/2m30s  30.00 iters/s
+
+ghi    [  70% ] 000/090 VUs  1m45.7s/2m30s  30.00 iters/s
+
+ghi    [  71% ] 001/090 VUs  1m46.7s/2m30s  30.00 iters/s
+
+ghi    [  72% ] 003/090 VUs  1m47.7s/2m30s  30.00 iters/s
+
+ghi    [  72% ] 000/090 VUs  1m48.7s/2m30s  30.00 iters/s
+
+ghi    [  73% ] 004/090 VUs  1m49.7s/2m30s  30.00 iters/s
+
+ghi    [  74% ] 000/090 VUs  1m50.7s/2m30s  30.00 iters/s
+
+ghi    [  74% ] 000/090 VUs  1m51.7s/2m30s  30.00 iters/s
+
+ghi    [  75% ] 000/090 VUs  1m52.7s/2m30s  30.00 iters/s
+
+ghi    [  76% ] 000/090 VUs  1m53.7s/2m30s  30.00 iters/s
+
+ghi    [  76% ] 000/090 VUs  1m54.7s/2m30s  30.00 iters/s
+
+ghi    [  77% ] 000/090 VUs  1m55.7s/2m30s  30.00 iters/s
+
+ghi    [  78% ] 001/090 VUs  1m56.7s/2m30s  30.00 iters/s
+
+ghi    [  78% ] 000/090 VUs  1m57.7s/2m30s  30.00 iters/s
+
+ghi    [  79% ] 001/090 VUs  1m58.7s/2m30s  30.00 iters/s
+
+ghi    [  80% ] 000/090 VUs  1m59.7s/2m30s  30.00 iters/s
+
+ghi    [  80% ] 001/090 VUs  2m00.7s/2m30s  30.00 iters/s
+
+ghi    [  81% ] 000/090 VUs  2m01.7s/2m30s  30.00 iters/s
+
+ghi    [  82% ] 000/090 VUs  2m02.7s/2m30s  30.00 iters/s
+
+ghi    [  82% ] 000/090 VUs  2m03.7s/2m30s  30.00 iters/s
+
+ghi    [  83% ] 000/090 VUs  2m04.7s/2m30s  30.00 iters/s
+
+ghi    [  84% ] 000/090 VUs  2m05.7s/2m30s  30.00 iters/s
+
+ghi    [  84% ] 000/090 VUs  2m06.7s/2m30s  30.00 iters/s
+
+ghi    [  85% ] 002/090 VUs  2m07.7s/2m30s  30.00 iters/s
+
+ghi    [  86% ] 000/090 VUs  2m08.7s/2m30s  30.00 iters/s
+
+ghi    [  86% ] 002/090 VUs  2m09.7s/2m30s  30.00 iters/s
+
+ghi    [  87% ] 000/090 VUs  2m10.7s/2m30s  30.00 iters/s
+
+ghi    [  88% ] 000/090 VUs  2m11.7s/2m30s  30.00 iters/s
+
+ghi    [  88% ] 001/090 VUs  2m12.7s/2m30s  30.00 iters/s
+
+ghi    [  89% ] 000/090 VUs  2m13.7s/2m30s  30.00 iters/s
+
+ghi    [  90% ] 000/090 VUs  2m14.7s/2m30s  30.00 iters/s
+
+ghi    [  90% ] 000/090 VUs  2m15.7s/2m30s  30.00 iters/s
+
+ghi    [  91% ] 000/090 VUs  2m16.7s/2m30s  30.00 iters/s
+
+ghi    [  92% ] 002/090 VUs  2m17.7s/2m30s  30.00 iters/s
+
+ghi    [  92% ] 000/090 VUs  2m18.7s/2m30s  30.00 iters/s
+
+ghi    [  93% ] 000/090 VUs  2m19.7s/2m30s  30.00 iters/s
+
+ghi    [  94% ] 000/090 VUs  2m20.7s/2m30s  30.00 iters/s
+
+ghi    [  94% ] 001/090 VUs  2m21.7s/2m30s  30.00 iters/s
+
+ghi    [  95% ] 000/090 VUs  2m22.7s/2m30s  30.00 iters/s
+
+ghi    [  96% ] 000/090 VUs  2m23.7s/2m30s  30.00 iters/s
+
+ghi    [  96% ] 000/090 VUs  2m24.7s/2m30s  30.00 iters/s
+
+ghi    [  97% ] 000/090 VUs  2m25.7s/2m30s  30.00 iters/s
+
+ghi    [  98% ] 000/090 VUs  2m26.7s/2m30s  30.00 iters/s
+
+ghi    [  98% ] 000/090 VUs  2m27.7s/2m30s  30.00 iters/s
+
+ghi    [  99% ] 000/090 VUs  2m28.7s/2m30s  30.00 iters/s
+
+ghi    [ 100% ] 000/090 VUs  2m29.7s/2m30s  30.00 iters/s
+
+     data_received..................: 115 MB 762 kB/s
+     data_sent......................: 2.7 MB 18 kB/s
+     http_req_blocked...............: avg=10.88µs  min=3.03µs  med=4.93µs   max=2.95ms   p(90)=6.97µs   p(95)=8.15µs   p(99)=195.92µs
+     http_req_connecting............: avg=4.18µs   min=0s      med=0s       max=2.9ms    p(90)=0s       p(95)=0s       p(99)=134.48µs
+     http_req_duration..............: avg=16.39ms  min=5ms     med=6.78ms   max=10.23s   p(90)=20.85ms  p(95)=49.22ms  p(99)=143.01ms
+       { expected_response:true }...: avg=14.11ms  min=5ms     med=6.74ms   max=571.84ms p(90)=20.6ms   p(95)=49.69ms  p(99)=142.55ms
+     http_req_failed................: 1.86%  84 out of 4502
+     http_req_receiving.............: avg=225.91µs min=33.21µs med=170.95µs max=7ms      p(90)=387.29µs p(95)=530.25µs p(99)=1.33ms  
+     http_req_sending...............: avg=27.96µs  min=15.31µs med=25.39µs  max=1.55ms   p(90)=33.79µs  p(95)=41.12µs  p(99)=81.25µs 
+     http_req_tls_handshaking.......: avg=0s       min=0s      med=0s       max=0s       p(90)=0s       p(95)=0s       p(99)=0s      
+     http_req_waiting...............: avg=16.13ms  min=4.86ms  med=6.56ms   max=10.23s   p(90)=20.55ms  p(95)=49.11ms  p(99)=141.49ms
+     http_reqs......................: 4502   29.960237/s
+     iteration_duration.............: avg=16.87ms  min=5.56ms  med=7.3ms    max=10.23s   p(90)=21.33ms  p(95)=49.69ms  p(99)=140.58ms
+     iterations.....................: 4500   29.946928/s
+     vus............................: 0      min=0          max=4 
+     vus_max........................: 90     min=90         max=90
+
+
+ghi  ✓ [ 100% ] 000/090 VUs  2m30s  30.00 iters/s

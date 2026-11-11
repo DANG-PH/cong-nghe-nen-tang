@@ -1,0 +1,47 @@
+Sinh 1000000 dòng giả
+DO
+INSERT 0 30000
+SELECT 30000
+INSERT 0 1000000
+ANALYZE
+ so_dong | dung_luong 
+---------+------------
+ 1000000 | 258 MB
+(1 row)
+
+== Chưa chia
+Execution Time: 301.238 ms
+Execution Time: 276.074 ms
+Execution Time: 280.553 ms
+số bảng phải quét: 1
+Chia theo tháng
+BEGIN
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER INDEX
+ALTER INDEX
+ALTER INDEX
+CREATE TABLE
+DO
+CREATE TABLE
+INSERT 0 1000000
+ALTER TABLE
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+ALTER TABLE
+ALTER TABLE
+COMMIT
+ANALYZE
+
+real	0m16.807s
+user	0m0.053s
+sys	0m0.040s
+== Đã chia
+Execution Time: 7.441 ms
+Execution Time: 7.337 ms
+Execution Time: 7.483 ms
+số bảng phải quét: 1
+17 phần

@@ -1,0 +1,68 @@
+LAST SEEN   TYPE      REASON                         OBJECT                               MESSAGE
+59m         Normal    Scheduled                      pod/hanni-api-6686d4d745-lplb9       Successfully assigned hanni/hanni-api-6686d4d745-lplb9 to k3s-server
+59m         Normal    Scheduled                      pod/hanni-api-6686d4d745-cn45d       Successfully assigned hanni/hanni-api-6686d4d745-cn45d to k3s-server
+59m         Normal    Scheduled                      pod/hanni-api-6686d4d745-p6j28       Successfully assigned hanni/hanni-api-6686d4d745-p6j28 to k3s-agent
+59m         Normal    Scheduled                      pod/hanni-api-6686d4d745-x7g9c       Successfully assigned hanni/hanni-api-6686d4d745-x7g9c to k3s-server
+59m         Normal    Scheduled                      pod/hanni-api-6686d4d745-8zs52       Successfully assigned hanni/hanni-api-6686d4d745-8zs52 to k3s-agent
+59m         Normal    Scheduled                      pod/hanni-api-6686d4d745-xp5ql       Successfully assigned hanni/hanni-api-6686d4d745-xp5ql to k3s-agent
+59m         Normal    ScalingReplicaSet              deployment/hanni-api                 Scaled up replica set hanni-api-6686d4d745 to 1
+59m         Normal    SuccessfulCreate               replicaset/hanni-api-6686d4d745      Created pod: hanni-api-6686d4d745-x7g9c
+59m         Normal    Pulled                         pod/hanni-api-6686d4d745-x7g9c       Container image "hanni-api:truoc" already present on machine
+59m         Normal    Created                        pod/hanni-api-6686d4d745-x7g9c       Created container: api
+59m         Normal    Started                        pod/hanni-api-6686d4d745-x7g9c       Started container api
+59m         Normal    SuccessfulDelete               replicaset/hanni-api-549f55d78f      Deleted pod: hanni-api-549f55d78f-9w555
+59m         Normal    ScalingReplicaSet              deployment/hanni-api                 Scaled up replica set hanni-api-6686d4d745 to 2 from 1
+59m         Normal    Killing                        pod/hanni-api-549f55d78f-9w555       Stopping container api
+59m         Normal    ScalingReplicaSet              deployment/hanni-api                 Scaled down replica set hanni-api-549f55d78f to 5 from 6
+59m         Normal    SuccessfulCreate               replicaset/hanni-api-6686d4d745      Created pod: hanni-api-6686d4d745-xp5ql
+59m         Normal    Pulled                         pod/hanni-api-6686d4d745-xp5ql       Container image "hanni-api:truoc" already present on machine
+59m         Normal    Created                        pod/hanni-api-6686d4d745-xp5ql       Created container: api
+59m         Normal    Started                        pod/hanni-api-6686d4d745-xp5ql       Started container api
+59m         Warning   Unhealthy                      pod/hanni-api-6686d4d745-xp5ql       Startup probe failed: Get "http://10.42.1.25:8000/api/health/live": dial tcp 10.42.1.25:8000: connect: connection refused
+59m         Normal    Killing                        pod/hanni-api-549f55d78f-xzvlt       Stopping container api
+59m         Normal    SuccessfulCreate               replicaset/hanni-api-6686d4d745      Created pod: hanni-api-6686d4d745-lplb9
+59m         Normal    ScalingReplicaSet              deployment/hanni-api                 Scaled down replica set hanni-api-549f55d78f to 4 from 5
+59m         Normal    SuccessfulDelete               replicaset/hanni-api-549f55d78f      Deleted pod: hanni-api-549f55d78f-xzvlt
+59m         Normal    ScalingReplicaSet              deployment/hanni-api                 Scaled up replica set hanni-api-6686d4d745 to 3 from 2
+59m         Normal    Started                        pod/hanni-api-6686d4d745-lplb9       Started container api
+59m         Normal    Pulled                         pod/hanni-api-6686d4d745-lplb9       Container image "hanni-api:truoc" already present on machine
+59m         Normal    Created                        pod/hanni-api-6686d4d745-lplb9       Created container: api
+59m         Normal    SuccessfulDelete               replicaset/hanni-api-549f55d78f      Deleted pod: hanni-api-549f55d78f-pzqxw
+59m         Normal    Killing                        pod/hanni-api-549f55d78f-pzqxw       Stopping container api
+59m         Normal    SuccessfulCreate               replicaset/hanni-api-6686d4d745      Created pod: hanni-api-6686d4d745-p6j28
+59m         Normal    ScalingReplicaSet              deployment/hanni-api                 Scaled down replica set hanni-api-549f55d78f to 3 from 4
+59m         Normal    ScalingReplicaSet              deployment/hanni-api                 Scaled up replica set hanni-api-6686d4d745 to 4 from 3
+59m         Normal    Pulled                         pod/hanni-api-6686d4d745-p6j28       Container image "hanni-api:truoc" already present on machine
+59m         Normal    Created                        pod/hanni-api-6686d4d745-p6j28       Created container: api
+59m         Normal    Started                        pod/hanni-api-6686d4d745-p6j28       Started container api
+59m         Warning   Unhealthy                      pod/hanni-api-6686d4d745-p6j28       Startup probe failed: Get "http://10.42.1.26:8000/api/health/live": dial tcp 10.42.1.26:8000: connect: connection refused
+59m         Normal    ScalingReplicaSet              deployment/hanni-api                 Scaled down replica set hanni-api-549f55d78f to 2 from 3
+59m         Normal    ScalingReplicaSet              deployment/hanni-api                 Scaled up replica set hanni-api-6686d4d745 to 5 from 4
+59m         Normal    Started                        pod/hanni-api-6686d4d745-cn45d       Started container api
+59m         Normal    SuccessfulCreate               replicaset/hanni-api-6686d4d745      Created pod: hanni-api-6686d4d745-cn45d
+59m         Normal    Pulled                         pod/hanni-api-6686d4d745-cn45d       Container image "hanni-api:truoc" already present on machine
+59m         Normal    Killing                        pod/hanni-api-549f55d78f-s45zj       Stopping container api
+59m         Normal    Created                        pod/hanni-api-6686d4d745-cn45d       Created container: api
+59m         Normal    SuccessfulDelete               replicaset/hanni-api-549f55d78f      Deleted pod: hanni-api-549f55d78f-s45zj
+59m         Normal    SuccessfulCreate               replicaset/hanni-api-6686d4d745      Created pod: hanni-api-6686d4d745-8zs52
+59m         Normal    SuccessfulDelete               replicaset/hanni-api-549f55d78f      Deleted pod: hanni-api-549f55d78f-k7rhj
+59m         Normal    Killing                        pod/hanni-api-549f55d78f-k7rhj       Stopping container api
+59m         Normal    Pulled                         pod/hanni-api-6686d4d745-8zs52       Container image "hanni-api:truoc" already present on machine
+59m         Normal    Started                        pod/hanni-api-6686d4d745-8zs52       Started container api
+59m         Normal    Created                        pod/hanni-api-6686d4d745-8zs52       Created container: api
+59m         Warning   Unhealthy                      pod/hanni-api-6686d4d745-8zs52       Startup probe failed: Get "http://10.42.1.27:8000/api/health/live": dial tcp 10.42.1.27:8000: connect: connection refused
+59m         Normal    Killing                        pod/hanni-api-549f55d78f-s4sdl       Stopping container api
+59m         Normal    ScalingReplicaSet              deployment/hanni-api                 (combined from similar events): Scaled down replica set hanni-api-549f55d78f to 0 from 1
+59m         Normal    SuccessfulDelete               replicaset/hanni-api-549f55d78f      Deleted pod: hanni-api-549f55d78f-s4sdl
+59m         Warning   FailedGetResourceMetric        horizontalpodautoscaler/hanni-api    failed to get cpu utilization: did not receive metrics for targeted pods (pods might be unready)
+59m         Warning   FailedComputeMetricsReplicas   horizontalpodautoscaler/hanni-api    invalid metrics (1 invalid out of 1), first error is: failed to get cpu resource metric value: failed to get cpu utilization: did not receive metrics for targeted pods (pods might be unready)
+59m         Warning   Unhealthy                      pod/hanni-api-549f55d78f-9w555       Readiness probe failed: Get "http://10.42.0.18:8000/api/health/ready": dial tcp 10.42.0.18:8000: connect: connection refused
+59m         Warning   Unhealthy                      pod/hanni-api-549f55d78f-xzvlt       Readiness probe failed: Get "http://10.42.1.23:8000/api/health/ready": dial tcp 10.42.1.23:8000: connect: connection refused
+59m         Warning   Unhealthy                      pod/hanni-api-549f55d78f-pzqxw       Readiness probe failed: Get "http://10.42.0.17:8000/api/health/ready": dial tcp 10.42.0.17:8000: connect: connection refused
+58m         Warning   Unhealthy                      pod/hanni-api-549f55d78f-s45zj       Readiness probe failed: Get "http://10.42.1.24:8000/api/health/ready": dial tcp 10.42.1.24:8000: connect: connection refused
+58m         Warning   Unhealthy                      pod/hanni-api-549f55d78f-k7rhj       Readiness probe failed: Get "http://10.42.0.15:8000/api/health/ready": dial tcp 10.42.0.15:8000: connect: connection refused
+58m         Warning   Unhealthy                      pod/hanni-api-549f55d78f-s4sdl       Readiness probe failed: Get "http://10.42.1.14:8000/api/health/ready": dial tcp 10.42.1.14:8000: connect: connection refused
+3m52s       Normal    WaitForFirstConsumer           persistentvolumeclaim/hanni-backup   waiting for first consumer to be created before binding
+115s        Warning   Unhealthy                      pod/hanni-api-6686d4d745-x7g9c       Readiness probe failed: Get "http://10.42.0.19:8000/api/health/ready": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+34s         Warning   Unhealthy                      pod/hanni-api-6686d4d745-p6j28       Readiness probe failed: Get "http://10.42.1.26:8000/api/health/ready": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+11s         Warning   Unhealthy                      pod/hanni-api-6686d4d745-8zs52       Readiness probe failed: Get "http://10.42.1.27:8000/api/health/ready": context deadline exceeded (Client.Timeout exceeded while awaiting headers)

@@ -1,0 +1,10 @@
+Sao lưu xong lúc 2026-11-09 12:12:38
+Số dòng lúc sao lưu: "User"=1000 "Word"=10958 "Lesson"=749 "UserSettings"=1000 "MockExamAttempt"=601 "ReviewLog"=1000000 
+12:12:42 sự cố: xoá CSDL và 1 tệp học liệu
+hanni-20261109-121221.dump: OK
+hoc-lieu-20261109-121221.tar.gz: OK
+Số dòng sau khôi phục: "User"=1000 "Word"=10958 "Lesson"=749 "UserSettings"=1000 "MockExamAttempt"=601 "ReviewLog"=1000000 
+Số dòng: KHỚP
+Dòng ghi sau lúc sao lưu còn tồn tại: 0 (0 nghĩa là mất đúng như RPO của bản dump)
+Tổng: 30 tệp đúng, 0 tệp sai, 69174525 byte, 1.0 giây
+RTO, từ lúc xoá tới khi kiểm tra xong: 52 giây
