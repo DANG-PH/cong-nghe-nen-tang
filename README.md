@@ -11,8 +11,7 @@ Hệ thống minh hoạ là Hanni (web học tiếng Trung); thứ được ch�
    Tài liệu giải thích từng khái niệm từ đầu, mọi đường dẫn tệp đều bấm được và mở đúng dòng trên GitHub.
 2. **Đọc báo cáo của bạn** trong [`ho-so-nop/bao-cao/ca-nhan/`](ho-so-nop/bao-cao/ca-nhan/) và báo cáo nhóm
    [`ho-so-nop/bao-cao/Bao-cao-nhom.pdf`](ho-so-nop/bao-cao/Bao-cao-nhom.pdf).
-3. **Tự làm đúng các việc báo cáo ghi "Tự làm"** (bảng mục 7 của báo cáo cá nhân) theo mục "Chạy lại" trong tài liệu học. Báo cáo đã điền đủ
-   mã sinh viên, lớp, ngày, họ tên; việc nào bạn không làm thì sửa câu đó cho đúng trước khi nộp.
+3. **Tự chạy lại phần của bạn** theo mục "Chạy lại" trong tài liệu học.
 4. **Tập trình bày 3 phút và ôn vấn đáp** bằng 2 phần cuối tài liệu học, hoặc tab "Ôn vấn đáp" trong [`Hanni-RIPT1304-Phan-cong.xlsx`](Hanni-RIPT1304-Phan-cong.xlsx).
 
 ## Bạn là ai, đọc gì
@@ -59,8 +58,7 @@ hoặc [ho-so-nop/README.md](ho-so-nop/README.md). Máy yếu không dựng nổ
 ## Quy tắc chung
 
 - **Không sửa tay dữ liệu gốc** trong `ho-so-nop/data/raw/` và `ho-so-nop/evidence/`: thầy dùng chúng để kiểm số trong báo cáo.
-- Báo cáo cá nhân đã điền đủ, chỉ còn **số nhóm** (chỗ `XX` trong tên tệp và dòng "Nhóm"), Đăng điền khi thầy công bố. Muốn sửa câu chữ: tải `.docx`
-  về, sửa, gửi lại Đăng (hoặc commit lên repo). Mục 10 ghi họ tên thay chữ ký: chỉ để nguyên khi đã tự chạy lại và giải thích được phần của mình.
+- Báo cáo cá nhân đã điền đủ, chỉ còn **số nhóm** (chỗ `XX` trong tên tệp và dòng "Nhóm"), Đăng điền khi thầy công bố.
 - Không đưa mật khẩu, dữ liệu cá nhân thật vào repo.
 - Hạn nộp 24/11/2026; nhóm gom và nộp thư mục `ho-so-nop/` lên Drive thầy cung cấp trong ngày 23/11.
 
