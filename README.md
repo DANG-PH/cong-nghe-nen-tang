@@ -7,8 +7,9 @@ Hệ thống minh hoạ là Hanni (web học tiếng Trung); thứ được ch�
 
 ## Bắt đầu từ đâu
 
-1. **Mở tài liệu học của bạn** trong thư mục [`tai-lieu-hoc/`](tai-lieu-hoc/). Đọc phần 1 (kiến thức nền, ai cũng phải nắm) rồi tới các phần riêng.
-   Tài liệu giải thích từng khái niệm từ đầu, mọi đường dẫn tệp đều bấm được và mở đúng dòng trên GitHub.
+1. **Mở tài liệu học của bạn** trong thư mục [`tai-lieu-hoc/`](tai-lieu-hoc/). Chưa dùng dòng lệnh, Git, Docker bao giờ thì đọc **Phần 0** trước
+   (cài công cụ, lệnh tối thiểu, cách hoàn tác khi sửa sai). Rồi phần 1 (kiến thức chung, Kubernetes cho người mới, **buổi thực hành đầu tiên**
+   từng bước có "thấy gì là đúng"), rồi các phần riêng. Mọi đường dẫn tệp đều bấm được và mở đúng dòng trên GitHub.
 2. **Đọc báo cáo của bạn** trong [`ho-so-nop/bao-cao/ca-nhan/`](ho-so-nop/bao-cao/ca-nhan/) và báo cáo nhóm
    [`ho-so-nop/bao-cao/Bao-cao-nhom.pdf`](ho-so-nop/bao-cao/Bao-cao-nhom.pdf).
 3. **Tự chạy lại phần của bạn** theo mục "Chạy lại" trong tài liệu học.
