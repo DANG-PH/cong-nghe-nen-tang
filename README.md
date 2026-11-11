@@ -1,6 +1,6 @@
 # Đề 06 – Nền tảng học trực tuyến cho 1.000 sinh viên
 
-Học phần **Nhập môn Công nghệ nền tảng (RIPT1304)** · Nhóm: Phạm Hải Đăng, Lê Đình Thành, Bùi Thị Vân Anh, Chu Hồng Đức · Hạn nộp **24/11/2026**.
+Học phần **Nhập môn Công nghệ nền tảng (RIPT1304)** · Lớp RIPT1304-20261-01 · Nhóm: Phạm Hải Đăng, Lê Đình Thành, Bùi Thị Vân Anh, Chu Hồng Đức · Hạn nộp **24/11/2026**.
 
 Repo này chứa toàn bộ bài làm của nhóm: hồ sơ nộp cho thầy, 4 tài liệu học (mỗi người 1 bản) và sheet phân công.
 Hệ thống minh hoạ là Hanni (web học tiếng Trung); thứ được chấm là cách nhóm thiết kế, đo, khôi phục và mở rộng hệ thống.
@@ -11,17 +11,18 @@ Hệ thống minh hoạ là Hanni (web học tiếng Trung); thứ được ch�
    Tài liệu giải thích từng khái niệm từ đầu, mọi đường dẫn tệp đều bấm được và mở đúng dòng trên GitHub.
 2. **Đọc báo cáo của bạn** trong [`ho-so-nop/bao-cao/ca-nhan/`](ho-so-nop/bao-cao/ca-nhan/) và báo cáo nhóm
    [`ho-so-nop/bao-cao/Bao-cao-nhom.pdf`](ho-so-nop/bao-cao/Bao-cao-nhom.pdf).
-3. **Tự chạy lại phần của bạn** theo mục "Chạy lại" trong tài liệu học, rồi điền phần "Tự làm" và ký báo cáo cá nhân.
-4. **Ôn vấn đáp** bằng phần cuối tài liệu học, hoặc tab "Ôn vấn đáp" trong [`Hanni-RIPT1304-Phan-cong.xlsx`](Hanni-RIPT1304-Phan-cong.xlsx).
+3. **Tự làm đúng các việc báo cáo ghi "Tự làm"** (bảng mục 7 của báo cáo cá nhân) theo mục "Chạy lại" trong tài liệu học. Báo cáo đã điền đủ
+   mã sinh viên, lớp, ngày, họ tên; việc nào bạn không làm thì sửa câu đó cho đúng trước khi nộp.
+4. **Tập trình bày 3 phút và ôn vấn đáp** bằng 2 phần cuối tài liệu học, hoặc tab "Ôn vấn đáp" trong [`Hanni-RIPT1304-Phan-cong.xlsx`](Hanni-RIPT1304-Phan-cong.xlsx).
 
 ## Bạn là ai, đọc gì
 
-| Thành viên | Tài liệu học | Báo cáo cá nhân | Cấu hình, script chính | Kết quả đo chính |
+| Thành viên | Tài liệu học | Báo cáo cá nhân (theo mã SV) | Cấu hình, script chính | Kết quả đo chính |
 | --- | --- | --- | --- | --- |
-| **Phạm Hải Đăng** (Sinh viên 1: kiến trúc, bảng tính tài nguyên, lab, API, giám sát) | [1-Pham-Hai-Dang.pdf](tai-lieu-hoc/1-Pham-Hai-Dang.pdf) | [PhamHaiDang](ho-so-nop/bao-cao/ca-nhan/Lop_Nhom_06_MSSV_PhamHaiDang_BaoCaoCaNhan.docx) | [k8s/app/api.yaml](ho-so-nop/cau-hinh-ma-nguon/hanni-server/infra/k8s/app/api.yaml), [k8s/app/config.yaml](ho-so-nop/cau-hinh-ma-nguon/hanni-server/infra/k8s/app/config.yaml), [bảng tính tài nguyên](ho-so-nop/so-do-va-bang/bang-tai-nguyen-ip-quyen.xlsx) | [ket-qua-kt2/](ho-so-nop/data/raw/gha-09-11/ket-qua-kt2/) |
-| **Lê Đình Thành** (Sinh viên 2: web học liệu, video HLS, Nginx/CDN, đo trình duyệt) | [2-Le-Dinh-Thanh.pdf](tai-lieu-hoc/2-Le-Dinh-Thanh.pdf) | [LeDinhThanh](ho-so-nop/bao-cao/ca-nhan/Lop_Nhom_06_MSSV_LeDinhThanh_BaoCaoCaNhan.docx) | [trang /hoc-lieu](ho-so-nop/cau-hinh-ma-nguon/hanni-client/), [k8s/media-manifest.json](ho-so-nop/cau-hinh-ma-nguon/hanni-server/infra/k8s/media-manifest.json), [k8s/app/media.yaml](ho-so-nop/cau-hinh-ma-nguon/hanni-server/infra/k8s/app/media.yaml) | [lighthouse/](ho-so-nop/data/raw/lighthouse/), [so-sanh-video/](ho-so-nop/data/raw/gha-09-11/ket-qua-phu/so-sanh-video/) |
-| **Bùi Thị Vân Anh** (Sinh viên 3: kịch bản tải, Kiểm thử 1 và 2, tổng hợp số liệu) | [3-Bui-Thi-Van-Anh.pdf](tai-lieu-hoc/3-Bui-Thi-Van-Anh.pdf) | [BuiThiVanAnh](ho-so-nop/bao-cao/ca-nhan/Lop_Nhom_06_MSSV_BuiThiVanAnh_BaoCaoCaNhan.docx) | [k6/](ho-so-nop/cau-hinh-ma-nguon/hanni-server/infra/k6/), [scripts/chay-kt2.sh](ho-so-nop/cau-hinh-ma-nguon/hanni-server/infra/scripts/chay-kt2.sh) | [kt2-tong-hop.xlsx](ho-so-nop/data/kt2-tong-hop.xlsx), [bang-kiem-thu.xlsx](ho-so-nop/bang-kiem-thu.xlsx) |
-| **Chu Hồng Đức** (Sinh viên 4: sao lưu, khôi phục, Kiểm thử 3, phân quyền, mở rộng) | [4-Chu-Hong-Duc.pdf](tai-lieu-hoc/4-Chu-Hong-Duc.pdf) | [ChuHongDuc](ho-so-nop/bao-cao/ca-nhan/Lop_Nhom_06_MSSV_ChuHongDuc_BaoCaoCaNhan.docx) | [k8s/backup/](ho-so-nop/cau-hinh-ma-nguon/hanni-server/infra/k8s/backup/), [scripts/](ho-so-nop/cau-hinh-ma-nguon/hanni-server/infra/scripts/), [luật cảnh báo](ho-so-nop/cau-hinh-ma-nguon/hanni-server/infra/observability/rules/hanni-slo.yml) | [ket-qua-kt3/](ho-so-nop/data/raw/gha-09-11/ket-qua-kt3/), [rpo-rto.xlsx](ho-so-nop/data/rpo-rto.xlsx) |
+| **Phạm Hải Đăng** (Sinh viên 1: kiến trúc, bảng tính tài nguyên, lab, API, giám sát) | [1-Pham-Hai-Dang.pdf](tai-lieu-hoc/1-Pham-Hai-Dang.pdf) | [B24DCCC047](ho-so-nop/bao-cao/ca-nhan/RIPT1304-20261-01_NhomXX_06_B24DCCC047_BaoCaoCaNhan.docx) | [k8s/app/api.yaml](ho-so-nop/cau-hinh-ma-nguon/hanni-server/infra/k8s/app/api.yaml), [k8s/app/config.yaml](ho-so-nop/cau-hinh-ma-nguon/hanni-server/infra/k8s/app/config.yaml), [bảng tính tài nguyên](ho-so-nop/so-do-va-bang/bang-tai-nguyen-ip-quyen.xlsx) | [ket-qua-kt2/](ho-so-nop/data/raw/gha-09-11/ket-qua-kt2/) |
+| **Lê Đình Thành** (Sinh viên 2: web học liệu, video HLS, Nginx/CDN, đo trình duyệt) | [2-Le-Dinh-Thanh.pdf](tai-lieu-hoc/2-Le-Dinh-Thanh.pdf) | [B24DCCC251](ho-so-nop/bao-cao/ca-nhan/RIPT1304-20261-01_NhomXX_06_B24DCCC251_BaoCaoCaNhan.docx) | [trang /hoc-lieu](ho-so-nop/cau-hinh-ma-nguon/hanni-client/), [k8s/media-manifest.json](ho-so-nop/cau-hinh-ma-nguon/hanni-server/infra/k8s/media-manifest.json), [k8s/app/media.yaml](ho-so-nop/cau-hinh-ma-nguon/hanni-server/infra/k8s/app/media.yaml) | [lighthouse/](ho-so-nop/data/raw/lighthouse/), [so-sanh-video/](ho-so-nop/data/raw/gha-09-11/ket-qua-phu/so-sanh-video/) |
+| **Bùi Thị Vân Anh** (Sinh viên 3: kịch bản tải, Kiểm thử 1 và 2, tổng hợp số liệu) | [3-Bui-Thi-Van-Anh.pdf](tai-lieu-hoc/3-Bui-Thi-Van-Anh.pdf) | [B24DCCC007](ho-so-nop/bao-cao/ca-nhan/RIPT1304-20261-01_NhomXX_06_B24DCCC007_BaoCaoCaNhan.docx) | [k6/](ho-so-nop/cau-hinh-ma-nguon/hanni-server/infra/k6/), [scripts/chay-kt2.sh](ho-so-nop/cau-hinh-ma-nguon/hanni-server/infra/scripts/chay-kt2.sh) | [kt2-tong-hop.xlsx](ho-so-nop/data/kt2-tong-hop.xlsx), [bang-kiem-thu.xlsx](ho-so-nop/bang-kiem-thu.xlsx) |
+| **Chu Hồng Đức** (Sinh viên 4: sao lưu, khôi phục, Kiểm thử 3, phân quyền, mở rộng) | [4-Chu-Hong-Duc.pdf](tai-lieu-hoc/4-Chu-Hong-Duc.pdf) | [B24DCCC065](ho-so-nop/bao-cao/ca-nhan/RIPT1304-20261-01_NhomXX_06_B24DCCC065_BaoCaoCaNhan.docx) | [k8s/backup/](ho-so-nop/cau-hinh-ma-nguon/hanni-server/infra/k8s/backup/), [scripts/](ho-so-nop/cau-hinh-ma-nguon/hanni-server/infra/scripts/), [luật cảnh báo](ho-so-nop/cau-hinh-ma-nguon/hanni-server/infra/observability/rules/hanni-slo.yml) | [ket-qua-kt3/](ho-so-nop/data/raw/gha-09-11/ket-qua-kt3/), [rpo-rto.xlsx](ho-so-nop/data/rpo-rto.xlsx) |
 
 Muốn biết **sửa thông số nào ở tệp nào, lệnh gì để áp dụng** (thao tác hay bị yêu cầu khi bảo vệ): xem phần "Sửa và cấu hình trực tiếp" trong tài
 liệu học của bạn, hoặc bảng chung [infra/README.md, mục "Sửa nhanh khi bảo vệ"](ho-so-nop/cau-hinh-ma-nguon/hanni-server/infra/README.md).
@@ -30,7 +31,7 @@ liệu học của bạn, hoặc bảng chung [infra/README.md, mục "Sửa nha
 
 ```
 ├── README.md                        ← tệp này
-├── Hanni-RIPT1304-Phan-cong.xlsx    ← sheet phân công: việc từng người, tiến độ, tab "Ôn vấn đáp" (nội bộ, không nộp)
+├── Hanni-RIPT1304-Phan-cong.xlsx    ← sheet phân công, 3 tab: Tổng quan, Công việc, Ôn vấn đáp (nội bộ, không nộp)
 ├── tai-lieu-hoc/                    ← 4 tài liệu học, mỗi người 1 bản (nội bộ, không nộp)
 └── ho-so-nop/                       ← ĐÚNG những gì nộp cho thầy (mục "Hồ sơ nộp chung" của phiếu đề)
     ├── README.md                    ← phiên bản, cách dựng lại hệ thống, cách chạy kiểm thử
@@ -58,8 +59,8 @@ hoặc [ho-so-nop/README.md](ho-so-nop/README.md). Máy yếu không dựng nổ
 ## Quy tắc chung
 
 - **Không sửa tay dữ liệu gốc** trong `ho-so-nop/data/raw/` và `ho-so-nop/evidence/`: thầy dùng chúng để kiểm số trong báo cáo.
-- Sửa báo cáo cá nhân của mình: tải tệp `.docx` về, điền **mã sinh viên, lớp, nhóm**, phần **"Tự làm"** (mục 7, 9), **ký mục 10**, rồi gửi lại Đăng
-  (hoặc commit lên repo). Chỉ ký khi đã tự chạy lại và hiểu được phần của mình.
+- Báo cáo cá nhân đã điền đủ, chỉ còn **số nhóm** (chỗ `XX` trong tên tệp và dòng "Nhóm"), Đăng điền khi thầy công bố. Muốn sửa câu chữ: tải `.docx`
+  về, sửa, gửi lại Đăng (hoặc commit lên repo). Mục 10 ghi họ tên thay chữ ký: chỉ để nguyên khi đã tự chạy lại và giải thích được phần của mình.
 - Không đưa mật khẩu, dữ liệu cá nhân thật vào repo.
 - Hạn nộp 24/11/2026; nhóm gom và nộp thư mục `ho-so-nop/` lên Drive thầy cung cấp trong ngày 23/11.
 

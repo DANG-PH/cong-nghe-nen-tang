@@ -2,14 +2,14 @@
 
 Học phần Nhập môn Công nghệ nền tảng (RIPT1304). Hệ thống minh hoạ: Hanni, web học tiếng Trung.
 
-Lớp: ............ Nhóm: ............
+Lớp: **RIPT1304-20261-01** · Nhóm: ............ · Mã đề tài: 06 · Ngày nộp: 23/11/2026
 
 | Vị trí trong phiếu đề | Họ tên | Mã sinh viên | Phần việc chính |
 | --- | --- | --- | --- |
-| Sinh viên 1 | Phạm Hải Đăng | ............ | Kiến trúc, bảng tính tài nguyên, lab k3s, API học liệu, giám sát |
-| Sinh viên 2 | Lê Đình Thành | ............ | Web học liệu, 3 học liệu, phát học liệu qua Nginx (vai CDN), đo phía trình duyệt |
-| Sinh viên 3 | Bùi Thị Vân Anh | ............ | Kịch bản tải, Kiểm thử 1 và 2, tổng hợp số liệu |
-| Sinh viên 4 | Chu Hồng Đức | ............ | Sao lưu, khôi phục, Kiểm thử 3, kiểm thử phân quyền, đánh giá mở rộng |
+| Sinh viên 1 | Phạm Hải Đăng | B24DCCC047 | Kiến trúc, bảng tính tài nguyên, lab k3s, API học liệu, giám sát |
+| Sinh viên 2 | Lê Đình Thành | B24DCCC251 | Web học liệu, 3 học liệu, phát học liệu qua Nginx (vai CDN), đo phía trình duyệt |
+| Sinh viên 3 | Bùi Thị Vân Anh | B24DCCC007 | Kịch bản tải, Kiểm thử 1 và 2, tổng hợp số liệu |
+| Sinh viên 4 | Chu Hồng Đức | B24DCCC065 | Sao lưu, khôi phục, Kiểm thử 3, kiểm thử phân quyền, đánh giá mở rộng |
 
 ## Nội dung hồ sơ
 
@@ -18,7 +18,7 @@ Theo mục "Hồ sơ nộp chung" của phiếu giao đề.
 | Thư mục hoặc tệp | Nội dung |
 | --- | --- |
 | `bao-cao/Bao-cao-nhom.docx`, `.pdf` | Báo cáo nhóm: 16 trang nội dung chính và 1 trang phụ lục cấu hình |
-| `bao-cao/ca-nhan/` | 4 báo cáo cá nhân theo mẫu của đề |
+| `bao-cao/ca-nhan/` | 4 báo cáo cá nhân theo mẫu của đề, tên tệp `Lớp_Nhóm_Đề_MSSV_BaoCaoCaNhan.docx` |
 | `so-do-va-bang/` | Sơ đồ kiến trúc, sơ đồ lab, bảng tài nguyên, IP, phân quyền và bảng tính tài nguyên |
 | `cau-hinh-ma-nguon/` | Cấu hình, script và mã nguồn nhóm viết cho đề này, trích từ 2 repo bên dưới |
 | `bang-kiem-thu.xlsx` | Bảng kiểm thử: đầu vào, thao tác, mong đợi, thực tế, đạt hay chưa, minh chứng có giờ chạy |
