@@ -13,7 +13,7 @@ Hệ thống minh hoạ là Hanni (web học tiếng Trung); thứ được ch�
 2. **Đọc báo cáo của bạn** trong [`ho-so-nop/bao-cao/ca-nhan/`](ho-so-nop/bao-cao/ca-nhan/) và báo cáo nhóm
    [`ho-so-nop/bao-cao/Bao-cao-nhom.pdf`](ho-so-nop/bao-cao/Bao-cao-nhom.pdf).
 3. **Tự chạy lại phần của bạn** theo mục "Chạy lại" trong tài liệu học.
-4. **Tập trình bày 3 phút và ôn vấn đáp** bằng 2 phần cuối tài liệu học, hoặc tab "Ôn vấn đáp" trong [`Hanni-RIPT1304-Phan-cong.xlsx`](Hanni-RIPT1304-Phan-cong.xlsx).
+4. **Tập trình bày 3 phút và ôn vấn đáp** bằng 2 phần cuối tài liệu học.
 
 ## Bạn là ai, đọc gì
 
@@ -31,7 +31,7 @@ liệu học của bạn, hoặc bảng chung [infra/README.md, mục "Sửa nha
 
 ```
 ├── README.md                        ← tệp này
-├── Hanni-RIPT1304-Phan-cong.xlsx    ← sheet phân công, 3 tab: Tổng quan, Công việc, Ôn vấn đáp (nội bộ, không nộp)
+├── Hanni-RIPT1304-Phan-cong.xlsx    ← sheet phân công, 2 tab: Tổng quan, Công việc (nội bộ, không nộp)
 ├── tai-lieu-hoc/                    ← 4 tài liệu học, mỗi người 1 bản (nội bộ, không nộp)
 └── ho-so-nop/                       ← ĐÚNG những gì nộp cho thầy (mục "Hồ sơ nộp chung" của phiếu đề)
     ├── README.md                    ← phiên bản, cách dựng lại hệ thống, cách chạy kiểm thử
