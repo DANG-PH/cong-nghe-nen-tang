@@ -18,7 +18,7 @@ Theo mục "Hồ sơ nộp chung" của phiếu giao đề.
 | Thư mục hoặc tệp | Nội dung |
 | --- | --- |
 | `bao-cao/Bao-cao-nhom.docx`, `.pdf` | Báo cáo nhóm: 16 trang nội dung chính và 1 trang phụ lục cấu hình |
-| `bao-cao/ca-nhan/` | 4 báo cáo cá nhân theo mẫu của đề, tên tệp `Lớp_Nhóm_Đề_MSSV_BaoCaoCaNhan.docx` |
+| `bao-cao/ca-nhan/` | 4 báo cáo cá nhân theo mẫu của đề (phiếu đóng góp cá nhân), mỗi bản có `.docx` và `.pdf`, tên tệp `Lớp_Nhóm_Đề_MSSV_BaoCaoCaNhan` |
 | `so-do-va-bang/` | Sơ đồ kiến trúc, sơ đồ lab, bảng tài nguyên, IP, phân quyền và bảng tính tài nguyên |
 | `cau-hinh-ma-nguon/` | Cấu hình, script và mã nguồn nhóm viết cho đề này, trích từ 2 repo bên dưới |
 | `bang-kiem-thu.xlsx` | Bảng kiểm thử: đầu vào, thao tác, mong đợi, thực tế, đạt hay chưa, minh chứng có giờ chạy |
